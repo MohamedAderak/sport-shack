@@ -1,0 +1,70 @@
+// Widget title
+// -------------------------
+$widget-title-font-size        : 18px !default;
+
+// Widget Video
+// -------------------------
+$widget-video-name-line-height : 1.6667 !default;
+
+// Widget post
+// -------------------------
+$widget-post-meta-font-size    : 11px !default;
+$widget-post-margin            : calc($theme-margin / 4) !default;
+
+// Widget twitter
+// -------------------------
+$widget-twitter-margin-bottom  : 40px !default;
+
+//Widget nav layered
+//--------------------------
+$layered-nav-font-size			: 13px !default;
+
+// Widget tags cloud
+// -------------------------
+
+// Widget vertical menu
+// -------------------------
+$vertical-menu-padding:                       0px !default;
+$vertical-menu-bg-hover:                      $nocolor !default;
+$vertical-menu-line-height:                   25px !default;
+$vertical-menu-font-size:                     12px !default;
+$vertical-menu-icon-font-size:                15px !default;
+$vertical-menu-link-padding:                  15px 20px !default;
+$vertical-menu-bg:                            #fff !default;
+$vertical-menu-link-color:                    #414141 !default;
+$vertical-menu-link-font-weight:              500 !default;
+$vertical-menu-link-transform:				  uppercase !default;
+$vertical-menu-link-hover-color:              $theme-color !default;
+$vertical-menu-border:             			  none !default;
+$vertical-menu-link-border:             	  1px solid $border-color !default; 
+// Widget deals product
+// -------------------------
+$deals-times-padding:					  5px 0 !default;
+$deals-times-bg:						  $red !default; 
+$deals-times-color:						  #fff !default;   
+$deals-times-font-family:				  $font-family-base !default;  
+$deals-times-font-size:					  10px !default;
+
+$bo-carousel-md-width:                             44px !default;
+$bo-carousel-md-height:                            44px !default;
+
+$bo-carousel-sm-width:                             34px !default;
+$bo-carousel-sm-height:                            34px !default;
+
+$bo-carousel-xs-width:                             28px !default;
+$bo-carousel-xs-height:                            28px !default;
+
+/* carousel-controls-v1 */
+$bo-carousel-controls-v1-color:                    #999 !default;
+$bo-carousel-controls-v1-hover-color:              darken($bo-carousel-controls-v1-color, 15%) !default;
+$bo-carousel-controls-v1-bg:                       rgba(0, 0, 0, 0.5) !default;
+
+/* carousel-controls-v2 */
+$bo-carousel-controls-v2-color:                    #999 !default;
+$bo-carousel-controls-v2-hover-color:              darken($bo-carousel-controls-v2-color, 25%) !default;
+
+/* carousel-controls-v3 */
+$bo-carousel-controls-v3-color:                    #fff !default;
+$bo-carousel-controls-v3-hover-color:              #fff !default;
+$bo-carousel-controls-v3-bg:                       rgba(0, 0, 0, 0.6) !default;
+$bo-carousel-controls-v3-hover-bg:                 darken($bo-carousel-controls-v3-bg, 15%) !default;

@@ -1,0 +1,328 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Smart Compare\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-20 02:52+0000\n"
+"PO-Revision-Date: 2017-12-20 02:53+0000\n"
+"Last-Translator: WooClever <admin@local.woo>\n"
+"Language-Team: Vietnamese\n"
+"Language: vi\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: woo-smart-compare-premium/index.php:403
+msgid "Open comparison bar immediately"
+msgstr "Mở thanh so sánh"
+
+#: woo-smart-compare-premium/index.php:409
+msgid ""
+"Check it if you want to open the comparison bar immediately when page load."
+msgstr "Chọn mục này nếu bạn muốn mở thanh so sánh ngay khi tải trang."
+
+#: woo-smart-compare-premium/index.php:414
+msgid "Open comparison table immediately"
+msgstr "Mở bảng so sánh"
+
+#: woo-smart-compare-premium/index.php:81
+msgid "Image"
+msgstr "Ảnh"
+
+#: woo-smart-compare-premium/index.php:82
+msgid "SKU"
+msgstr "Mã sản phẩm"
+
+#: woo-smart-compare-premium/index.php:83
+msgid "Rating"
+msgstr "Đánh giá"
+
+#: woo-smart-compare-premium/index.php:84
+msgid "Price"
+msgstr "Giá"
+
+#: woo-smart-compare-premium/index.php:85
+msgid "Stock"
+msgstr "Tình trạng"
+
+#: woo-smart-compare-premium/index.php:86
+msgid "Availability"
+msgstr "Khả năng"
+
+#: woo-smart-compare-premium/index.php:87
+msgid "Add to cart"
+msgstr "Thêm vào giỏ"
+
+#: woo-smart-compare-premium/index.php:88
+msgid "Description"
+msgstr "Mô tả"
+
+#: woo-smart-compare-premium/index.php:89
+msgid "Weight"
+msgstr "Trọng lượng"
+
+#: woo-smart-compare-premium/index.php:90
+msgid "Dimensions"
+msgstr "Kích thước"
+
+#: woo-smart-compare-premium/index.php:91
+msgid "Color"
+msgstr "Màu sắc"
+
+#: woo-smart-compare-premium/index.php:92,
+#: woo-smart-compare-premium/index.php:388
+msgid "Attributes"
+msgstr "Thuộc tính"
+
+#: woo-smart-compare-premium/index.php:194,
+#: woo-smart-compare-premium/index.php:223
+msgid "Settings"
+msgstr "Tùy chọn"
+
+#: woo-smart-compare-premium/index.php:195,
+#: woo-smart-compare-premium/index.php:225
+msgid "Support"
+msgstr "Hỗ trợ"
+
+#: woo-smart-compare-premium/index.php:203,
+#: woo-smart-compare-premium/index.php:203,
+#: woo-smart-compare-premium/index.php:214
+msgid "Woo Smart Compare"
+msgstr "Woo Smart Compare"
+
+#: woo-smart-compare-premium/index.php:217
+msgid "Smart products compare for WooCommerce."
+msgstr "Tính năng so sánh thông minh cho WooCommerce."
+
+#: woo-smart-compare-premium/index.php:233
+msgid "Button Settings"
+msgstr "Tùy chọn nút"
+
+#: woo-smart-compare-premium/index.php:236
+msgid "Settings for the compare button in each product."
+msgstr "Tùy chọn cho nút so sánh trên mỗi sản phẩm."
+
+#: woo-smart-compare-premium/index.php:240
+msgid "Type"
+msgstr "Kiểu"
+
+#: woo-smart-compare-premium/index.php:245
+msgid "Button"
+msgstr "Nút"
+
+#: woo-smart-compare-premium/index.php:249
+msgid "Link"
+msgstr "Liên kết"
+
+#: woo-smart-compare-premium/index.php:255
+msgid "Text"
+msgstr "Chữ"
+
+#: woo-smart-compare-premium/index.php:258,
+#: woo-smart-compare-premium/index.php:456,
+#: woo-smart-compare-premium/index.php:656,
+#: woo-smart-compare-premium/index.php:658,
+#: woo-smart-compare-premium/index.php:674,
+#: woo-smart-compare-premium/index.php:677,
+#: woo-smart-compare-premium/index.php:679,
+#: woo-smart-compare-premium/index.php:699,
+#: woo-smart-compare-premium/index.php:703
+msgid "Compare"
+msgstr "So sánh"
+
+#: woo-smart-compare-premium/index.php:263
+msgid "Extra class (optional)"
+msgstr "Class mở rộng (không bắt buộc)"
+
+#: woo-smart-compare-premium/index.php:268
+msgid "Add extra class for action button/link, split by one space."
+msgstr "Thêm class cho nút/liên kết, cách nhau bởi dấu phẩy."
+
+#: woo-smart-compare-premium/index.php:273
+msgid "Show in products list"
+msgstr "Hiển thị trên danh sách sản phẩm"
+
+#: woo-smart-compare-premium/index.php:278,
+#: woo-smart-compare-premium/index.php:309
+msgid "After title"
+msgstr "Sau tiêu đề"
+
+#: woo-smart-compare-premium/index.php:282
+msgid "After rating"
+msgstr "Sau đánh giá"
+
+#: woo-smart-compare-premium/index.php:286
+msgid "After price"
+msgstr "Sau giá"
+
+#: woo-smart-compare-premium/index.php:290,
+#: woo-smart-compare-premium/index.php:321
+msgid "Before add to cart"
+msgstr "Trước thêm vào giỏ"
+
+#: woo-smart-compare-premium/index.php:294,
+#: woo-smart-compare-premium/index.php:325
+msgid "After add to cart"
+msgstr "Sau thêm vào giỏ"
+
+#: woo-smart-compare-premium/index.php:298,
+#: woo-smart-compare-premium/index.php:337
+msgid "None"
+msgstr "Không"
+
+#: woo-smart-compare-premium/index.php:304
+msgid "Show in single product page"
+msgstr "Hiển thị trong trang chi tiết"
+
+#: woo-smart-compare-premium/index.php:313
+msgid "After price & rating"
+msgstr "Sau giá & đánh giá"
+
+#: woo-smart-compare-premium/index.php:317
+msgid "After excerpt"
+msgstr "Sau mô tả ngắn"
+
+#: woo-smart-compare-premium/index.php:329
+msgid "After meta"
+msgstr "Sau thông tin"
+
+#: woo-smart-compare-premium/index.php:333
+msgid "After sharing"
+msgstr "Sau chia sẻ"
+
+#: woo-smart-compare-premium/index.php:343
+msgid "Manual compare button"
+msgstr "Tùy chọn vị trí"
+
+#: woo-smart-compare-premium/index.php:347
+msgid ""
+"You can add the compare button by manually, please use the shortcode %s, eg. "
+"%s for the product with ID is 99."
+msgstr ""
+"Bạn có thể tùy chọn vị trí hiển thị, hãy sử dụng mã %s, ví dụ %s cho sản "
+"phẩm có ID là 99."
+
+#: woo-smart-compare-premium/index.php:354
+msgid "Compare Settings"
+msgstr "Tùy chọn so sánh"
+
+#: woo-smart-compare-premium/index.php:357
+msgid ""
+"Please choose the fields you want to show on the comparison table. You also can "
+"drag/drop to rearrange these fields."
+msgstr ""
+"Hãy lựa chọn các thông tin bạn muốn so sánh. Bạn có thể kéo/thả để sắp xếp "
+"lại vị trí."
+
+#: woo-smart-compare-premium/index.php:361
+msgid "Fields"
+msgstr "Thông tin"
+
+#: woo-smart-compare-premium/index.php:394
+msgid ""
+"Add the slug of attributes you want to show, separated by a comma. Eg. color,"
+"size"
+msgstr ""
+"Thêm các thuộc tính khác bạn muốn hiển thị, cách nhau bởi dấu phẩy. Ví dụ: "
+"mau-sac,kich-thuoc"
+
+#: woo-smart-compare-premium/index.php:399
+msgid "Display Settings"
+msgstr "Tùy chọn hiển thị"
+
+#: woo-smart-compare-premium/index.php:400
+msgid "Settings for the interface of comparison bar and comparison table."
+msgstr "Tùy chọn cho giao diện hiển thị của bảng so sánh."
+
+#: woo-smart-compare-premium/index.php:420
+msgid ""
+"Check it if you want to open the comparison table immediately when click to "
+"compare button. If not, it just add product to the comparison bar."
+msgstr ""
+"Chọn mục này nếu bạn muốn mở bảng so sánh ngay khi nhấn vào nút so sánh. Nếu "
+"không, chỉ có thanh so sánh được hiển thị."
+
+#: woo-smart-compare-premium/index.php:425
+msgid "Hide in Cart & Checkout page"
+msgstr "Ẩn trong trang giỏ hàng và thanh toán"
+
+#: woo-smart-compare-premium/index.php:438
+msgid "Hide the compare in the Cart & Checkout page?"
+msgstr "Bạn muốn ẩn trong trang giỏ hàng và thanh toán?"
+
+#: woo-smart-compare-premium/index.php:442
+msgid "Bar background color"
+msgstr "Màu nền của thanh so sánh"
+
+#: woo-smart-compare-premium/index.php:448
+msgid "Choose the background color for the comparison bar, default %s"
+msgstr "Chọn màu nền cho thanh so sánh, mặc định %s"
+
+#: woo-smart-compare-premium/index.php:453
+msgid "Bar button text"
+msgstr "Chữ của nút so sánh"
+
+#: woo-smart-compare-premium/index.php:459
+msgid "Leave blank if you want to show only icon in the button."
+msgstr "Để trống nếu bạn chỉ muốn hiển thị biểu tượng trên nút."
+
+#: woo-smart-compare-premium/index.php:464
+msgid "Bar button color"
+msgstr "Màu của nút so sánh"
+
+#: woo-smart-compare-premium/index.php:470
+msgid "Choose the color for the button on comparison bar, default %s"
+msgstr "Chọn màu nền cho nút so sánh, mặc định %s"
+
+#: woo-smart-compare-premium/index.php:475
+msgid "Bar position"
+msgstr "Vị trí thanh"
+
+#: woo-smart-compare-premium/index.php:480
+msgid "Bottom"
+msgstr "Dưới"
+
+#: woo-smart-compare-premium/index.php:484
+msgid "Top"
+msgstr "Trên"
+
+#: woo-smart-compare-premium/index.php:490
+msgid "Bar align"
+msgstr "Sắp xếp"
+
+#: woo-smart-compare-premium/index.php:495
+msgid "Right"
+msgstr "Phải"
+
+#: woo-smart-compare-premium/index.php:499
+msgid "Left"
+msgstr "Trái"
+
+#: woo-smart-compare-premium/index.php:509
+msgid "Update Options"
+msgstr "Cập nhật"
+
+#: woo-smart-compare-premium/index.php:530,
+#: woo-smart-compare-premium/index.php:567
+msgid "Permissions check failed!"
+msgstr "Bạn không có quyền!"
+
+#: woo-smart-compare-premium/index.php:587
+msgid "In stock"
+msgstr "Còn hàng"
+
+#: woo-smart-compare-premium/index.php:587
+msgid "Out of stock"
+msgstr "Hết hàng"
+
+#: woo-smart-compare-premium/index.php:643
+msgid "Have no product in the comparison table."
+msgstr "Không có sản phẩm nào."

@@ -1,0 +1,3 @@
+2024-12-08T12:01:55+00:00 INFO Payment gateway enabled: "Cash on delivery"
+2024-12-08T12:02:06+00:00 INFO Payment gateway enabled: "Direct bank transfer"
+2024-12-08T12:02:12+00:00 INFO Payment gateway enabled: "Check payments"

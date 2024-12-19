@@ -1,0 +1,98 @@
+#aovup_freemium_container {
+  margin: auto;
+  width: 1000px;
+  text-align: center;
+
+  .aovup_page_title_upgrade {
+    margin: 50px 0 28px 0;
+    font-size: 29px;
+    color: #168471;
+  }
+
+  .aovup_page_subtitle_upgrade {
+    color: #000;
+    max-width: 694px;
+    margin: auto;
+    margin-bottom: 5px;
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 15px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .aovup_demo_feature_button {
+    background: #008060;
+    color: white;
+    border: 1.5px solid #008060;
+    font-weight: 600;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    margin-top: 20px;
+    cursor: pointer !important;
+
+    &:hover {
+      color: #000;
+      background: none;
+    }
+  }
+
+  .aovup_demo_feature_button_white {
+    background: none;
+    color: #000;
+    border: 1.5px solid #008060;
+    font-weight: 600;
+    padding: 12px;
+    margin-left: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    margin-top: 20px;
+    cursor: pointer !important;
+
+    &:hover {
+      color: #fff;
+      background: #008060;
+    }
+  }
+
+  .aovup_gif2 {
+    max-width: 723px !important;
+    padding: 10px 0;
+    background: white;
+    border-radius: 15px;
+  }
+}
+
+#aovup-core-install-notice {
+  display: flex;
+  padding: 25px;
+  column-gap: 20px;
+
+  .aovup-core-install-notice-content {
+    h2 {
+      margin-top: 0;
+    }
+  }
+
+  .aovup-core-install-button {
+    display: inline-flex;
+    align-items: center;
+
+    .dashicons {
+      font-size: 1.3em;
+      margin-top: 2px;
+    }
+  }
+}
+
+.wp-submenu {
+  a.aovup-pro-upgrade-link {
+    background: #008060 !important;
+    color: #fff !important;
+  }
+}

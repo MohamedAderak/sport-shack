@@ -1,0 +1,39 @@
+/*------------------------------------------------------------------
+[Table of contents]
+1. form
+2. utilities
+3. theme effect
+4. buttons
+5. alerts
+6. woocommerce
+7. woocommerce widgets
+-------------------------------------------------------------------*/
+// import variables and mixins
+@import "vars/vars-global";             
+@import "vars/variables";
+@import "vars/template-vars";   
+@import "vars/woocommerce-vars";
+@import "mixins/mixins";
+@import "mixins/template-mixins";
+@import "rtl/rtl";                      
+
+/* 1. form */ 
+@import "template/form";  
+
+/* 2. utilities */
+@import "template/utilities"; 
+ 
+/* 3. theme effect */
+@import "template/theme-effect";
+
+/* 4. buttons */
+@import "bootstrap/buttons";
+
+/* 5. alerts */
+@import "bootstrap/alerts";
+
+/* 6. woocommerce */
+@import "template/woocommerce";
+
+/* 7. woocommerce widgets */
+@import "template/woocommerce-widgets";

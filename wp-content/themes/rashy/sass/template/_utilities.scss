@@ -1,0 +1,86 @@
+/*-------------------------------------------
+    No Margin
+-------------------------------------------*/
+.no-margin{
+    margin: 0 !important;
+    .pagination{
+        margin: 0;
+    }
+}
+/*-------------------------------------------
+    No Padding
+-------------------------------------------*/
+.no-padding{
+    padding: 0 !important;
+}
+.no-position{
+   position: static !important;
+}
+.inline-block{
+    @include inline-block();
+}
+.no-background{
+    @include box-shadow(none);
+    background: none!important;
+}
+.no-effect a:before{
+    content: none!important;
+}
+// Clear Box
+// -------------------------
+%clear-box{
+    padding : 0px !important;
+    border  : 0px !important;
+}
+/*------------------------------------*\
+    Clear List Style
+\*------------------------------------*/
+.clear-list{
+    @include clear-list;
+}
+/*-------------------------------------------
+    Text Transform
+-------------------------------------------*/
+.text-uppercase{
+    text-transform: uppercase !important;
+}
+/*-------------------------------------------
+    Align
+-------------------------------------------*/
+.separator_align_center{
+    text-align: center !important;
+}
+.vc_align_right,
+.separator_align_right{
+    text-align: right !important;
+}
+.separator_align_left{
+    text-align: left !important;
+}
+/*------------------------------------*\
+    Font size heading title
+\*------------------------------------*/
+.font-size-lg{
+    @include font-size(font-size,$font-size-lg);
+}
+.font-size-md{
+    @include font-size(font-size,$font-size-md);
+}
+.font-size-sm{
+    @include font-size(font-size,$font-size-sm);
+}
+.font-size-xs{
+    @include font-size(font-size,$font-size-xs);
+}
+/*------------------------------------*\
+    Border
+\*------------------------------------*/
+.no-border{
+    border: 0px !important;
+}
+/*------------------------------------*\
+    No background
+\*------------------------------------*/
+.bg-transparent{
+    background: transparent !important;
+}

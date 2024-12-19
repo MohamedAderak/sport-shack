@@ -1,0 +1,57 @@
+// Color
+// -------------------------
+$green           : #78ae00 !default;
+$green-dark      : #1cb936 !default;
+$white           : #fff !default;
+$black           : #000 !default;
+$nocolor         : transparent !default;
+$yellow          : #fdff39 !default;
+$yellow-dark     : #f2cb2e !default;
+$red             : #ff003a !default;
+$red-dark        : #ce4f3e !default;
+$orange          : #e93434 !default;
+$blue            : #177bd1 !default;
+$dark            : #093452 !default;
+$dark-better     : #0c304a !default;
+$dark            : #121B1F !default;
+$cyan            : #01a3d4 !default;
+$turquoise       : #9c619c !default;
+$brown-light	 : #eb5454 !default; //color primary skin fashion (skin default)
+$gray-text       : #999999 !default;
+//Color header cd
+$cd-topbar-bg	 : #3B424C !default;
+
+// Align
+// -------------------------
+$align-center    : center !important;
+$align-left      : left !important;
+$align-right     : right !important;
+
+//Font
+//--------------------------
+$font-family-second 	: "Zen Dots" !default;
+$font-family-three      : "Zen Dots" !default;
+$font-weight-base       : 400 !default; 
+// Text transform
+// -------------------------
+$text-none       : none !important;
+$text-uppercase  : uppercase !important;
+$text-capitalize : capitalize !important;
+$text-lowercase  : lowercase !important;
+$text-inherit    : inherit !important;
+
+// Theme Margin, Padding
+// -------------------------
+$theme-margin    : 30px !default; 
+$theme-padding   : 30px !default;
+// border
+$border-color    : #e5e5e5 !default;
+
+// Themes colors
+// -------------------------
+$theme-color               : #f44a16 !default;  
+$theme-color-second  	   : #f44a16 !default;  
+$theme-color-default       : $theme-color !default;
+$theme-color-secondary     : #2b2b2b !default;  
+$theme-color-third  	   : #8d8d8d !default;
+$theme-color-price  	   : #f44a16 !default; 

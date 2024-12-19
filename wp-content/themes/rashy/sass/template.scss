@@ -1,0 +1,63 @@
+/*------------------------------------------------------------------
+[Table of contents]
+1. base
+2. elements
+3. form
+4. layout
+5. menu
+6. pages 
+7. post
+8. effect 
+9. utilities
+10. widgets layout
+11. widgets 
+12. responsive
+-------------------------------------------------------------------*/
+// import variables and mixins
+@import "vars/vars-global";
+@import "vars/variables";
+@import "vars/template-vars";
+@import "vars/woocommerce-vars";
+@import "mixins/mixins";
+@import "mixins/template-mixins";
+@import "rtl/rtl";
+
+/* 1. base */
+@import "template/fonts";
+
+@import "template/base";
+
+/* 2. elements */
+@import "template/widgets-layout";
+
+/* 3. form */
+@import "template/form";
+
+/* 4. layout */
+@import "template/layout";
+
+/* 5. menu */
+@import "template/menu";
+
+/* 6. pages */
+@import "template/pages";
+
+/* 7. post */
+@import "template/post";
+
+/* 8. effect */
+@import "template/theme-effect";
+
+/* 9. utilities */
+@import "template/utilities";
+
+/* 10. widgets layout */
+
+@import "template/elements";
+
+/* 11. widgets */
+@import "template/widgets";
+
+/* 12. responsive */
+
+@import "template/responsive";

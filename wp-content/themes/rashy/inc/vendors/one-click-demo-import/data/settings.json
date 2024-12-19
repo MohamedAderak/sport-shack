@@ -1,0 +1,19 @@
+{
+	"page_options":
+	{
+		"elementor_disable_color_schemes":"yes",
+		"elementor_disable_typography_schemes":"yes",
+		"elementor_allow_tracking":"no",
+		"elementor_cpt_support":
+		["post","page","goal_footer","goal_megamenu","goal_header"],
+	    "goal_salespopup_settings":{"enable_sales_popup":"on","disable_on_mobile":"on","min_time":"15000","max_time":"25000",
+		"popup_text":"Someone in {address} purchased a {product_name} <small>About {purchased_time} {time_unit} ago<\/small>",
+		"multiple_address":
+		"New York, USA\r\nLondon, UK",
+		"time_in_second":{"enable":"on","min":"0","max":"59"},
+		"time_in_minutes":{"enable":"on","min":"1","max":"59"},
+		"time_in_hours":{"enable":"on","min":"1","max":"59"},
+		"time_in_days":{"enable":"on","min":"1","max":"10"},
+	    "products":["560","552","538","533","517"]}
+	}
+}

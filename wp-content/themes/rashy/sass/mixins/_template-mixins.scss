@@ -1,0 +1,658 @@
+// Box Size
+// -------------------------
+@mixin box-size($background, $padding-top,$padding-bottom){
+    background: $background;
+    padding-top: $padding-top;
+    padding-bottom: $padding-bottom;
+}
+// Button
+// -------------------------
+  
+@mixin button-3d($suffixclass,$horizontal ,$height3d , $color3d, $h-shadow:0, $v-shadow:0){
+  border: 0;
+  @if ($suffixclass == "empty") {
+      box-shadow: $horizontal $height3d $h-shadow $v-shadow $color3d inset;
+      -o-box-shadow: $horizontal $height3d $h-shadow $v-shadow  $color3d inset;
+      -moz-box-shadow: $horizontal $height3d $h-shadow $v-shadow  $color3d inset;
+      -webkit-box-shadow: $horizontal $height3d $h-shadow $v-shadow  $color3d inset;
+      -ms-box-shadow: $horizontal $height3d $h-shadow $v-shadow  $color3d inset;
+  }
+  @else {
+  &.btn-#{$suffixclass}{
+     box-shadow: $horizontal $height3d $h-shadow $v-shadow  $color3d inset;
+      -o-box-shadow: $horizontal $height3d $h-shadow $v-shadow  $color3d inset;
+      -moz-box-shadow: $horizontal $height3d $h-shadow $v-shadow  $color3d inset;
+      -webkit-box-shadow: $horizontal $height3d $h-shadow $v-shadow  $color3d inset;
+      -ms-box-shadow: $horizontal $height3d $h-shadow $v-shadow  $color3d inset;
+    }
+  }
+}
+
+@mixin btn-gradient-hover($color-start,$color-end){
+  &:hover{
+      @include gradient-vertical($color-start,$color-end);
+  }
+}
+
+@mixin button-inverse( $suffixclass,  $color ,$background ){
+  &.btn-#{$suffixclass}{
+      &:hover{ 
+        color:$color;
+        background:$background;
+      }
+  }
+}
+
+@mixin button-outline( $suffixclass, $color, $hovercolor ){
+  &.btn-#{$suffixclass}{
+      background:transparent;
+      border-color:$color;
+      color:$color;
+      &:hover{
+        color:$hovercolor;
+        border-color:$color;
+        background:$color;
+      }
+  }
+}
+/// button variant outline
+@mixin button-variant-outline($color, $background, $border, $colorhover, $bghover, $borderhover ) {
+  color: $color;
+  background-color: $background;
+  border-color: $border;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+    color: $colorhover;
+    background-color: $bghover;
+        border-color: $borderhover ;
+  }
+  .open & { &.dropdown-toggle {
+    color: $colorhover;
+    background-color: $bghover;
+        border-color: $borderhover ;
+  } }
+  &:active,
+  &.active {
+    background-image: none;
+  }
+  .open & { &.dropdown-toggle {
+    background-image: none;
+  } }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &,
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      background-color: $background;
+          border-color: $border;
+    }
+  }
+
+  .badge {
+    color: $background;
+    background-color: $color;
+  }
+}
+// icon variant inverse
+
+@mixin icons-inverse( $suffixclass,  $color ,$background ){
+ 
+  &.icons-#{$suffixclass}{
+      &:hover{ 
+        color:$color;
+        background:transparent;
+      }
+  }
+}
+// icon variant outline
+
+@mixin icons-outline( $suffixclass, $color, $hovercolor ){
+  &.icons-#{$suffixclass}{
+  background:transparent;
+      color:$color;
+      &:hover{
+          color:$hovercolor;
+      }
+  }
+}
+
+// Block
+// -------------------------
+@mixin block-elements-styles($border, $heading-text-color, $heading-bg-color, $heading-border, $text-color, $text-color-primary){
+    border-color: $border;
+    background: $heading-bg-color;
+    & .#{$block-heading-selector} {
+        color: $heading-text-color;
+        background-color: $heading-bg-color;
+        border-color: $heading-border;
+        + .#{$block-prefix}-collapse .#{$block-content-selector} {
+            border-top-color: $border;
+        }
+    }
+    & > .#{$block-prefix}-footer {
+        + .#{$block-prefix}-collapse .#{$block-prefix}-body {
+            border-bottom-color: $border;
+        }
+    }
+}
+@mixin block-variant($heading-text-color, $heading-bg-color, $heading-border) {
+    > .#{$block-heading-selector} {
+        color: $heading-text-color;
+        background-color: $heading-bg-color;
+        border-color: $heading-border;
+        font-size: 16px;
+        + *{
+          border-color:$border-color;
+          border-style:solid;
+          border-width:0 1px 1px 1px;
+        }  
+    }  
+}
+@mixin block-variant-footer() {
+    border-color: transparent;
+    & > .#{$block-heading-selector} {
+        background-color: transparent;
+        border-color: transparent;
+         &:before{
+            border-top: 0 solid transparent;
+            border-right: 0 solid transparent ;
+            border-left: 0 solid transparent;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            content: "";
+        }
+    }  
+}
+/****/
+@mixin container-layout-variant($color, $background, $linkcolor,  $topbar-link-color-hover ){
+    background: $background;
+    color: $color;
+    a{
+        color:$linkcolor;
+    }
+    a:hover{
+        color: $topbar-link-color-hover;
+    }
+}
+
+//== Inline block
+//==========================================
+@mixin inline-block ($haslayout : true){
+    display: inline-block;
+    vertical-align: middle;
+    @if $haslayout == true {
+        .lt-ie8 & {
+            display: inline;
+            zoom: 1;
+        }
+    }
+}
+
+//== vertical block
+//==========================================
+@mixin vertical-center( $width: 100px, $height: 100px) {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: $width;
+    height: $height;
+    position: absolute;
+}
+
+//== Translate X - Y - Z
+//==========================================
+@mixin translateX($x) {
+    -webkit-transform: translateX($x);
+    -ms-transform: translateX($x); // IE9 only
+    -o-transform: translateX($x);
+    transform: translateX($x);
+}
+
+@mixin translateY($y) {
+    -webkit-transform: translateY($y);
+    -ms-transform: translateY($y); // IE9 only
+    -o-transform: translateY($y);
+    transform: translateY($y);
+}
+
+@mixin translateZ($z) {
+    -webkit-transform: translateZ($z);
+    -ms-transform: translateZ($z); // IE9 only
+    -o-transform: translateZ($z);
+    transform: translateZ($z);
+}
+
+//== Transform
+//==========================================
+@mixin transform($argument){
+    -webkit-transform: ($argument);
+    -moz-transform: ($argument);
+    -ms-transform: ($argument);
+    -o-transform: ($argument);
+    transform: ($argument);
+}
+
+//== Transform
+//==========================================
+@mixin transition-delay($time1,$time2){
+    -webkit-transition-delay: ($time1,$time2);
+    -moz-transition-delay: ($time1,$time2);
+    -ms-transition-delay: ($time1,$time2);
+    -o-transition-delay: ($time1,$time2);
+    transition-delay: ($time1,$time2);
+}
+
+//== Background Size
+//==========================================
+@mixin background-size($size1,$size2) {
+    -webkit-background-size: ($size1,$size2);
+    -moz-background-size: ($size1,$size2);
+    -ms-background-size: ($size1,$size2);
+    -o-background-size: ($size1,$size2);
+    background-size: ($size1,$size2);
+}
+
+//== Background origin
+//==========================================
+@mixin background-origin($value1,$value2){
+    -webkit-background-origin: ($value1,$value2);
+    -moz-background-origin: ($value1,$value2);
+    -ms-background-origin: ($value1,$value2);
+    -o-background-origin: ($value1,$value2);
+    background-origin: ($value1,$value2);
+}
+
+//== Border radius
+//==========================================
+@mixin border-radius($radius) {
+    border-radius         : $radius;
+    -webkit-border-radius : $radius;
+    -moz-border-radius    : $radius;
+    -ms-border-radius     : $radius;
+    -o-border-radius      : $radius;
+}
+
+@mixin border-radius-separate($topLeftRadius: 5px, $topRightRadius: 5px, $bottomLeftRadius: 5px, $bottomRightRadius: 5px) {
+    -webkit-border-top-left-radius:     $topLeftRadius;
+    -webkit-border-top-right-radius:    $topRightRadius;
+    -webkit-border-bottom-right-radius: $bottomRightRadius;
+    -webkit-border-bottom-left-radius:  $bottomLeftRadius;
+
+    -moz-border-radius-topleft:     $topLeftRadius;
+    -moz-border-radius-topright:    $topRightRadius;
+    -moz-border-radius-bottomright: $bottomRightRadius;
+    -moz-border-radius-bottomleft:  $bottomLeftRadius;
+
+    border-top-left-radius:     $topLeftRadius;
+    border-top-right-radius:    $topRightRadius;
+    border-bottom-right-radius: $bottomRightRadius;
+    border-bottom-left-radius:  $bottomLeftRadius;
+}
+
+
+//== Text Shadow
+//==========================================
+@mixin text-shadow($shadow) {
+    text-shadow         : $shadow;
+    -webkit-text-shadow : $shadow;
+    -moz-text-shadow    : $shadow;
+    -ms-text-shadow     : $shadow;
+    -o-text-shadow      : $shadow;
+}
+
+//== Transform Origin
+//==========================================
+@mixin transform-origin($originX,$originY) {
+    -webkit-transform-origin : $originX $originY;
+    -moz-transform-origin    : $originX $originY;
+    -ms-transform-origin     : $originX $originY; // IE9 only
+    transform-origin         : $originX $originY;
+}
+
+//== appearance
+//==========================================
+@mixin appearance() {
+    -webkit-appearance : none;
+    -moz-appearance    : none;
+    -o-appearance      : none;
+    -ms-appearance     : none;
+    appearance         : none;
+}
+
+//== selection
+//==========================================
+$prefixes: ("-moz-", "");
+@mixin selection($color, $background) {
+    @each $prefix in $prefixes {
+        ::#{$prefix}selection {
+            color: $color;
+            background: $background;
+        }
+    }
+}
+
+//== animation fill mode
+//==========================================
+@mixin animation-fill-mode($fill) {
+    -webkit-animation-fill-mode: $fill;
+    -moz-animation-fill-mode: $fill;
+    -o-animation-fill-mode: $fill;
+    animation-fill-mode: $fill;
+}
+
+//== filter
+//==========================================
+@mixin filter($argument){
+    filter         : $argument;
+    -webkit-filter : $argument;
+    -moz-filter    : $argument;
+    -o-filter      : $argument;
+    -ms-filter     : $argument;
+}
+
+// Clear Lists
+// -------------------------
+@mixin clear-list(){
+    padding    : 0;
+    margin     : 0;
+    list-style : none;
+}
+
+// Formart lists widget
+// -------------------------
+@mixin lists-style() {
+    ul,ol{
+        @include clear-list();
+        li{
+            &:first-child{
+
+            }
+            &:last-child{
+                border-bottom: 0;
+                padding-bottom: 0;
+            }
+            .children{
+                > li{
+                    &:before{
+                        top: 24px;
+                    }
+                }
+            }
+        }
+        ul{
+            li:first-child{
+                padding-top: 14px;
+                background-position: 0 24px;
+            }
+        }
+    }
+}
+@mixin box-shadow-market(){
+    @include box-shadow(0 2px 2px -1px rgba(0, 0, 0, 0.1));
+    border-bottom: rgba(0, 0, 0, 0.3);
+}  
+
+
+// Position mixin
+//==========================================
+// @param [string] $position: position type
+// @param [list] $args: list of offsets and values
+//==========================================
+@mixin position($position, $args) {
+    @each $o in top right bottom left {
+        $i: index($args, $o);
+        @if $i
+            and $i + 1 <= length($args)
+            and type-of( nth($args, $i + 1) ) == number {
+            #{$o}: nth($args, $i + 1);
+        }
+    }
+    position: $position;
+}
+
+
+// Absolute positioning mixin
+//==========================================
+// @param [list] $args: list of offsets and values
+//==========================================
+@mixin absolute($args) {
+    @include position(absolute, $args);
+}
+
+// Arrow mixin
+//==========================================
+// @param [string] $direction: arrow direction
+// @param [list] $position: list of offsets and values
+// @param [color] $color (inherit): arrow color
+// @param [number] $size (1em): arrow size
+//==========================================
+@mixin triangle($direction, $position, $color: currentColor, $size: 1em) {
+    // Make sure the direction is valid
+    @if not index(top right bottom left, $direction) {
+        @warn "Direction must be one of top, right, bottom or left.";
+    }
+
+    @else {
+        @include absolute($position); // Position
+        @include square(0); // Size
+        content: '';
+        z-index: 2;
+
+        border-#{opposite-position($direction)}: $size * 1.5 solid $color;
+        $perpendicular-borders: $size solid transparent;
+
+        @if $direction == top or $direction == bottom {
+            border-left:   $perpendicular-borders;
+            border-right:  $perpendicular-borders;
+        }
+
+        @else if $direction == right or $direction == left {
+            border-bottom: $perpendicular-borders;
+            border-top:    $perpendicular-borders;
+        }
+    }
+}
+
+
+//== margin - padding has value - not rtl ^.^
+//==========================================
+@mixin margin($margin, $value){
+    margin-#{$margin}: $value !important;
+}
+
+@for $i from 1 through 80 {
+    @each $margin in top, left, bottom, right {
+        .margin-#{$margin}-#{$i}{
+            @include margin($margin, 1px * $i)
+        }
+    }
+}
+
+@mixin padding($padding, $value){
+    padding-#{$padding}: $value !important;
+}
+
+@for $i from 1 through 80 {
+    @each $padding in top, left, bottom, right {
+        .padding-#{$padding}-#{$i}{
+            @include padding($padding, 1px * $i)
+        }
+    }
+}
+
+
+// Font size - rem
+//==========================================
+
+@function parseInt($n) {  
+  @return $n / ($n * 0 + 1);
+}
+
+@mixin font-size($property, $values) {
+  $px : ();  
+  $rem: ();  
+
+  @each $value in $values {  
+
+      $unit: unit($value);     
+      $val: parseInt($value);  
+
+      @if $unit == "px" or $unit == "" {  
+        $px : append($px,  $value);
+        $rem: append($rem, ($val / 10 + rem));
+      }
+      @if $unit == "rem" { 
+        $px : append($px,  ($val * 10 + px));
+        $rem: append($rem, $value);
+      }
+  }
+
+ 
+  #{$property}: $px; 
+ 
+}
+
+
+//== Border
+//==========================================
+@mixin border( $coordinates: 0 0 0 0, $colour: $border-color, $style: solid ) {
+    $top: nth($coordinates, 1);
+    $right: nth($coordinates, 2);
+    $bottom: nth($coordinates, 3);
+    $left: nth($coordinates, 4);
+    @if not(unitless($top)) {
+        border-top: $top $style $colour;
+    }
+    @if not(unitless($right)) {
+        border-right: $right $style $colour;
+    }
+    @if not(unitless($bottom)) {
+        border-bottom: $bottom $style $colour;
+    }
+    @if not(unitless($left)) {
+        border-left: $left $style $colour;
+    }
+}
+
+// State and hover
+//==========================================
+@mixin state-hover-default($time, $background, $border-color){
+    @include transition(all $time);
+    &:hover{
+      background: $background!important;
+      border-color: $border-color!important;
+    }
+}
+
+@mixin state-hover($time,$height,$color){
+    @include box-shadow(inset 0 0 0 0 $color);
+    @include transition(all $time cubic-bezier(0.8,0,0,1));
+    &:hover{
+        @include transition(all $time cubic-bezier(0.8,0,0,1));
+        @include box-shadow(inset 0 (-$height) 0 0 $color);
+    }
+}
+
+@mixin state-hover-2($background){
+    position: relative;
+    z-index: 10;
+    &:after{
+        content: "";
+        display: block;
+        z-index: -50;
+        background-color: $background;
+        visibility: hidden;
+        @include scale(0);
+        @include vertical-center(100%,100%);
+        @include opacity(0);
+        @include transition-delay(0.3s,0s);
+        @include transition(transform 0s cubic-bezier(0.19,1,0.22,1) 0.3s,opacity 0.3s cubic-bezier(0.19,1,0.22,1));
+    }
+    &:hover{
+        &:after{
+            visibility: visible;
+            @include scale(1);
+            @include opacity(1);
+            @include transition(transform 0.6s cubic-bezier(0.19,1,0.22,1),opacity 0.5s cubic-bezier(0.19,1,0.22,1));
+        }
+    }
+}
+
+
+
+//== Flexible Layout
+//==========================================
+
+@mixin flexbox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+%flexbox {
+    @include flexbox;
+}
+
+@mixin inline-flex {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+%inline-flex {
+    @include inline-flex;
+}
+
+
+
+// Retina Sprite Mixins
+
+@mixin retina-sprite-background($url,$position,$width,$height){
+    background-repeat: no-repeat;
+    background-image: url($url);
+    background-position: $position;
+    width:$width;
+    height:$height;
+}
+@mixin make-grid-mobile-columns($i: 1, $list: ".col-xs-#{$i}, .col-sm-#{$i}, .col-md-#{$i}, .col-lg-#{$i}") {
+  $grid-gutter-mobile-width : 30px;
+  @for $i from (1 + 1) through $grid-columns {
+    $list: "#{$list}, .col-xs-#{$i}, .col-sm-#{$i}, .col-md-#{$i}, .col-lg-#{$i}";
+  }
+  #{$list} {
+    padding-left:  ($grid-gutter-mobile-width / 2);
+    padding-right: ($grid-gutter-mobile-width / 2);
+  }
+}
+@mixin container-mobile-fixed($gutter: $grid-gutter-width) {
+  $grid-gutter-mobile-width : 30px;
+  padding-left:  ($grid-gutter-mobile-width / 2);
+  padding-right: ($grid-gutter-mobile-width / 2);
+}
+@mixin make-mobile-row($gutter: $grid-gutter-width) {
+  $gutter-mobile : 30px;
+  margin-left:  ($gutter-mobile / -2);
+  margin-right: ($gutter-mobile / -2);
+  @include clearfix();
+}
+@mixin loop-delay($item){
+  @for $i from 1 through 10 {
+    #{$item}:nth-child(2n+#{$i}) {
+      -webkit-transition-delay:#{$i/10}s; /* Safari */
+      transition-delay:#{$i/10}s;
+    }
+  }
+}

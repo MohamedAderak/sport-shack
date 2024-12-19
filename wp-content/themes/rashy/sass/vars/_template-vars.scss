@@ -1,0 +1,143 @@
+
+/**
+* Web Application Prefix Apply For Making Owner Styles
+*/
+
+$app-prefix                      : goal !default;
+$vc-prefix                       : goal !default;
+
+/**
+ *   Blocks Layout Selectors
+ */
+$block-prefix                    : 'widget' !default;
+$block-selector                  : 'widget' !default;
+$block-heading-selector          : 'widget-title,.widgettitle,.widget-heading' !default;
+$block-content-selector          : 'widget-content' !default;
+$block-heading-reversed-selector : 'widget-title-reversed' !default;
+$container-prefix                : 'wpb-container' !default;
+
+
+$image-theme-path                : '../images/' !default;
+$image-theme-skin                : '../images/skins/default/' !default;
+
+// Font-family
+// -------------------------
+$fa-version                      : 5.11.2 !default;
+$theme-font-name                 : 'Font Awesome 5 Free' !default;
+$theme-font-path                 : '../fonts/' !default;
+
+// Typography
+// -------------------------
+$font-size-lg                    : 48px !default;
+$font-size-md                    : 30px !default;
+$font-size-sm                    : $font-size-h4 !default;
+$font-size-xs                    : $font-size-h5 !default;
+$text-lead-font-size             : 18px !default;
+$icon-font-size-base             : 14px !default;
+$headings-transform              : uppercase !default;
+$text-hightlight                 : $black !default;
+$close-font-size                 : 20px !default;
+
+$headings-font-family            : $font-family-second!default;
+
+// Body
+// -------------------------
+$body-bg-image                   : none !default;
+
+// Size Image Icon
+// -------------------------
+$image-icon-size                 : 40px !default;
+
+// Breadcrumbs
+// -------------------------
+$breadcrumb-font-size            : $font-size-base !default;
+$breadcrumb-border               : none !default;
+$breadcrumb-box-shadow           : 0 5px 5px -5px rgba(0, 0, 0, 0.2) inset !default;
+$breadcrumb-padding-top          : 20px !default;
+$breadcrumb-padding-bottom       : 20px !default;
+$breadcrumb-margin               : 0 0 ($theme-margin)!default;
+$breadcrumb-link-color           : $black !default;
+$breadcrumb-link-hover-color     : $theme-color !default;
+$breadcrumb-layout-bg            : #fff !default;
+$breadcrumb-alignment            : left !default;
+$breadcrumb-title-font-weight    : 300 !default;
+$breadcrumb-title-font-size      : 48px !default;
+$breadcrumb-line-height			 : 30px !default;
+
+$breadcrumb-name-font-size		 : 18px !default;
+$breadcrumb-name-font-weight	 : 300 !default;
+$breadcrumb-name-color			 : $black !default;
+
+// Carousel
+// -------------------------
+$carousel-border                 : 1px solid darken($border-color, 20%) !default;
+$carousel-font-size              : 12px !default;
+$carousel-font-color             : $black !default;
+
+// Well - Wrapper
+// -------------------------
+$well-padding                    : $theme-padding * 2 !default;
+$well-box-shadow                 : none !default;
+$well-border-radius              : 0 !default;
+
+// Social
+// -------------------------
+$social-display                  : inline-block;
+$social-bg                       : #133F48 !default;
+$social-color                    : #979797 !default;
+$social-hover-color              : $black !default;
+$social-size                     : 46px !default;
+$social-margin                   : 0 20px 0 0 !default;
+$social-border-radius            : percentage(.5) !default;
+
+// Box
+// -------------------------
+$box-container-margin            : 20px !default;
+$box-container-bg                : transparent !default;
+$box-container-border            : 1px solid $border-color !default;
+$box-container-inner-bg          : transparent !default;
+$box-container-first-margin      : 0 !default;
+
+$box-highlighted-bg              : $gray-darker url("#{$image-theme-path}bg-counter.png") no-repeat 0 0;
+$box-highlighted-margin          : 0px !default;
+$box-highlighted-container-bg    : transparent !default;
+
+$box-heading-margin              : 0 0 30px 0 !default;
+$box-heading-line-bg             : $theme-color !default;
+$box-heading-padding             : 0 0 $theme-margin 0 !default;
+$box-heading-font-size           : 18px !default;
+
+// Thumbnail
+// -------------------------
+$thumbnail-margin-bottom         : 20px !default;
+
+// Tabs
+// -------------------------
+$nav-tabs-color                  : $gray-dark !default;
+$nav-tabs-link-font-size         : 14px !default;
+$nav-tabs-link-font-weight       : 900 !default;
+$nav-tabs-border-radius          : 0px !default;
+$nav-tabs-padding                : 0 20px !default;
+$nav-tabs-margin                 : 0 !default;
+$nav-tabs-font-weight            : 900 !default; 
+
+$nav-tabs-left-font-weight		 : 900!default;
+// Contact Us
+// -------------------------
+$contact-bg                      : lighten($border-color, 20%) !default;
+$contact-icon-bg                 : $theme-color !default;
+$contact-icon-size               : 22px !default;
+$contact-icon-color              : $white !default; 
+$contact-icon-border-radius      : 2px !default;
+
+$overlay_dark_fallback			 : #111111 !default; 
+$overlay_dark 					 : #333333 !default; 
+$overlay_dark_dark				 : #111111 !default; 
+
+@import
+    "form",
+    "layout",
+    "menu",
+    "post-vars",
+    "widget"
+    ;

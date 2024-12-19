@@ -1,0 +1,93 @@
+# Copyright (C) 2016 Goal Lookbook
+# This file is distributed under the same license as the Goal Lookbook package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Goal Lookbook 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/goal-lookbook\n"
+"POT-Creation-Date: 2021-01-08 07:04:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: inc/post-types/class-post-type-lookbook.php:36
+#: inc/post-types/class-post-type-lookbook.php:48
+msgid "Goal Lookbooks"
+msgstr ""
+
+#: inc/post-types/class-post-type-lookbook.php:37
+msgid "Lookbook"
+msgstr ""
+
+#: inc/post-types/class-post-type-lookbook.php:38
+#: inc/post-types/class-post-type-lookbook.php:39
+msgid "Add New Lookbook"
+msgstr ""
+
+#: inc/post-types/class-post-type-lookbook.php:40
+msgid "Edit Lookbook"
+msgstr ""
+
+#: inc/post-types/class-post-type-lookbook.php:41
+msgid "New Lookbook"
+msgstr ""
+
+#: inc/post-types/class-post-type-lookbook.php:42
+msgid "All Lookbooks"
+msgstr ""
+
+#: inc/post-types/class-post-type-lookbook.php:43
+msgid "View Lookbook"
+msgstr ""
+
+#: inc/post-types/class-post-type-lookbook.php:44
+msgid "Search Lookbook"
+msgstr ""
+
+#: inc/post-types/class-post-type-lookbook.php:45
+msgid "No Lookbooks found"
+msgstr ""
+
+#: inc/post-types/class-post-type-lookbook.php:46
+msgid "No Lookbooks found in Trash"
+msgstr ""
+
+#: inc/post-types/class-post-type-lookbook.php:61
+msgid "lookbook"
+msgstr ""
+
+#: inc/post-types/class-post-type-lookbook.php:114
+msgid "Choose a image"
+msgstr ""
+
+#: inc/post-types/class-post-type-lookbook.php:127
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: inc/post-types/class-post-type-lookbook.php:158
+msgid "Settings"
+msgstr ""
+
+#: inc/post-types/class-post-type-lookbook.php:192
+msgid "ShortCode"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Goal Lookbook"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://goalthemes.com/plugins/goal-lookbook/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Create Lookbooks."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "GoalThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://goalthemes.com"
+msgstr ""

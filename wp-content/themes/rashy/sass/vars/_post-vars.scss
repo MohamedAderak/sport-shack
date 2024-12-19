@@ -1,0 +1,76 @@
+// Default Style all
+// -------------------------
+$entry-title-color                      : #111 !default;
+$entry-title-font-size                  : 18px !default;
+$entry-title-font-weight		        : 500!default;
+
+$entry-meta-position                    : 0px !default;
+$entry-meta-font-size                   : 12px !default;
+$entry-meta-margin                      : 8px 0 12px 0 !default;
+$entry-meta-transform                   : uppercase !default;
+$entry-meta-font-weight      			: 400 !default;
+// News magazine
+// -------------------------
+$post-list-entry-title-font-size        : 14px !default;
+$post-list-entry-title-line-height      : 1.1 !default;
+$post-list-entry-title-font-weight	    : 500!default;
+
+$category-posts-label-color             : $white !default;
+$category-posts-label-font-weight       : $font-weight-base !default;
+$category-posts-label-font-size         : 10px !default;
+$category-posts-label-transform         : uppercase !default;
+$category-posts-subtitle-font-size      : 10px !default;
+
+$section-blog-title-margin              : 0 0 30px 0 !default;
+
+// Post
+// ------------------------- 
+$post-title-font-size                   : 24px !default;
+$post-share-margin                      : 30px !default;
+$post-share-title-margin                : 10px 0 !default;
+$post-share-icon-color                  : $gray-light !default;
+$post-share-icon-hover-color            : $theme-color !default;
+$post-share-icon-margin                 : $theme-margin !default;
+$post-share-icon-size                   : 20px !default;
+$post-author-avatar-margin              : calc($theme-margin / 4) !default;
+$post-type-margin                       : 30px !default;
+
+// Slipt Layout
+// -------------------------
+$split-layout-main-post-size            : 436px !default;
+$split-layout-second-post-size          : 218px !default;
+
+$split-layout-main-post-font-size       : 18px !default;
+$split-layout-main-post-line-height     : 1.4 !default;
+
+// Blog
+// -------------------------
+$blog-title-font-size                   : 24px !default;
+$blog-title-font-weight                 : 300 !default;
+$blog-title-transform                   : none !default;
+$blog-date-bg                           : $orange !default;
+$blog-date-size                         : 50px !default;
+$blog-date-color                        : $black !default;
+$blog-date-transform                    : uppercase !default;
+$blog-date-font-size                    : 11px !default;
+$blog-date-font-weight                  : 600 !default;
+$blog-date-font-size-number             : 24px !default;
+$blog-date-number-line-height           : 25px !default;
+$blog-date-font-weight-number           : $font-weight-base !default;
+$blog-border                            : 1px solid $border-color !default;
+$blog-content-margin                    : 30px !default;
+
+// Comment
+// -------------------------
+$comment-list-border-color              : #e7e6e6 !default;
+$comment-list-padding                   : $theme-padding*1.25 !default;
+$comment-list-margin                    : $theme-margin*1.25 !default;
+$comment-list-avatar-margin             : $theme-margin*0.75 !default;
+$comment-list-author-margin             : $comment-list-avatar-margin !default;
+$comment-list-children-padding          : $theme-padding*2 !default;
+
+// Widget sidebar
+// -------------------------
+$widget-sidebar-entry-title-font-size   : 14px !default;
+$widget-sidebar-entry-title-line-height : 1.4 !default;
+$widget-sidebar-entry-title-font-weight : 400 !default;

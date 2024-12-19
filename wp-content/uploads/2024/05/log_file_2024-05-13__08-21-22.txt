@@ -1,0 +1,55 @@
+
+---Downloaded files---
+The import files for: Home were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://mygoalthemes.com/demo/rashy
+Data file = /home/kc4e01i9tu2a/public_html/demo/rashy/wp-content/themes/rashy/inc/vendors/one-click-demo-import/data/dummy-data.xml
+Widget file = /home/kc4e01i9tu2a/public_html/demo/rashy/wp-content/themes/rashy/inc/vendors/one-click-demo-import/data/widgets.wie
+Customizer file = not defined!
+Redux files:
+rashy_theme_options -> /home/kc4e01i9tu2a/public_html/demo/rashy/wp-content/themes/rashy/inc/vendors/one-click-demo-import/data/redux-options.json 
+
+
+---ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Topbar Right : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+
+Blog sidebar : 
+
+Goal Search Widget - No Title - Imported
+Block - No Title - Imported
+Goal Recent Posts Widget - Latest Post - Imported
+Block - No Title - Imported
+
+Shop Sidebar : 
+
+Block - No Title - Imported
+Filter Products by Price - Filter by price - Imported
+Goal Filter Products by Attribute - Color - Imported
+Goal Filter Products by Attribute - Size - Imported
+Products list - Featured Products - Imported
+
+Shop Filter Sidebar : 
+
+Block - No Title - Imported
+Goal WooCommerce Price Filter List - Filter by price - Imported
+Goal Filter Products by Attribute - Color - Imported
+
+Header Mobile Bottom : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: rashy_theme_options finished successfully!
+
+---ocdi/after_import---
+

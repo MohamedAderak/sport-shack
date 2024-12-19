@@ -1,0 +1,136 @@
+
+.button-primary.goal-btn-import[data-disabled=true] {
+	position: static;
+	color: #66c6e4 !important;
+	background: #008ec2 !important;
+	border-color: #007cb2 !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .1) !important;
+	cursor: default;
+}
+
+.goal_notification {
+	display: block;
+	position: relative;
+	margin-left: 0;
+	margin-right: 0;
+	padding-right: 40px;
+}
+
+.goal-goto-import-page .goal_import_ignore:hover {
+	cursor: pointer;
+}
+
+.goal_notification > p {
+	line-height: 2;
+}
+
+.goal_progress_import {
+	margin-bottom: 30px;
+}
+
+.goal-progress-content {
+	
+	display: none;
+}
+
+
+.goal_process_bar {
+	padding: 0;
+	margin-bottom: 40px;
+}
+
+.goal-complete {
+	display: none;
+}
+
+.goal-complete .button {
+	margin-right: 3px;
+}
+
+@media screen and (max-width: 768px) {
+	.goal-progress-content .container {
+		width: 80%;
+	}
+}
+
+.goal_progress_error_message {
+	display: none;
+}
+
+.goal_progress_error_message .log {
+	margin-bottom: 20px;
+	display: none;
+}
+
+.goal_progress_error_message .log .content {
+	font-size: smaller;
+	overflow: auto;
+	max-height: 200px;
+}
+
+.goal_progress_error_message .error {
+	margin: 0;
+}
+
+.goal_progress_error_message .error-content {
+	margin-bottom: 50px;
+}
+
+.goal_progress_error_message .goal-error {
+	margin: 5px 0 15px;
+	background: #fff;
+	border-left: 4px solid #dc3232;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+	padding: 1px 12px;
+}
+
+.goal-progress-content .wrapper-content h1 {
+	margin-bottom: 40px;
+}
+
+.wp-pointer {
+	display: none;
+}
+
+.wp-pointer-buttons {
+	display: none;
+}
+.steps .active {
+	color: rgb(0, 133, 186);
+}
+
+
+.preset-section {
+	margin: 0 30px;
+}
+.preset-content {
+	margin: 0 30px;
+}
+.preset-content .set_default {
+	border-top: 1px solid #c3c3c3;
+	margin: 20px 0;
+    padding: 20px 0;
+}
+.preset-content label {
+	font-weight: bold;
+}
+.preset-content .note {
+	font-size: 20px;
+}
+.preset-content strong {
+	color: red;
+}
+.redux-main .select2-container {
+	display: inline-block !important;
+}
+
+
+.redux-main .select2-container {
+ display: inline-block !important;
+}
+.redux-main .redux-typography-container .select_wrapper .redux-typography{
+ min-width:auto !important;
+}
