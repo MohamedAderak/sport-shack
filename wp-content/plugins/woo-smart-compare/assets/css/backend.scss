@@ -1,0 +1,212 @@
+@keyframes woosc-spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes woosc-spinner {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.wpclever_settings_page .select2-container {
+  width: 100% !important;
+}
+
+/* Ver 6.0 */
+
+.woosc-fields-wrapper {
+  position: relative;
+
+  &.woosc-fields-wrapper-loading {
+    &:before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, .5);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 9;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 10;
+      display: block;
+      width: 30px;
+      height: 30px;
+      margin-top: -15px;
+      margin-left: -15px;
+      border-width: 4px;
+      border-style: solid;
+      border-radius: 100%;
+      border-top-color: rgba(0, 0, 0, .5);
+      border-left-color: rgba(0, 0, 0, .1);
+      border-bottom-color: rgba(0, 0, 0, .1);
+      border-right-color: rgba(0, 0, 0, .1);
+      animation: woosc-spinner 1s linear infinite;
+      -webkit-animation: woosc-spinner 1s linear infinite;
+    }
+  }
+
+  .woosc-fields {
+    position: relative;
+    margin: 10px 0;
+    max-width: 720px;
+
+    .woosc-field {
+      padding: 5px 0;
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center;
+      background-color: #ffffff;
+      border: 1px dashed #dddddd;
+      border-radius: 2px;
+
+      &.ui-sortable-placeholder {
+        height: 30px;
+      }
+
+      &:hover {
+        border-color: #2271b1;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &:nth-child(2n+1) {
+        background-color: #fafafa;
+      }
+
+      > * {
+        margin: 0 5px;
+      }
+
+      .move {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 2px;
+        text-align: center;
+        font-size: 0;
+        flex: 0 0 30px;
+        background-color: #eeeeee;
+        cursor: move;
+
+        &:before {
+          content: '\f545';
+          font-family: dashicons;
+          font-size: 10px;
+          color: #999999;
+        }
+      }
+
+      .info {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        > * {
+          margin: 0 5px;
+        }
+
+        .woosc-field-name {
+          flex-grow: 1;
+        }
+      }
+
+      .remove {
+        width: 30px;
+        height: 30px;
+        flex: 0 0 30px;
+        line-height: 30px;
+        border-radius: 2px;
+        text-align: center;
+        background-color: #eeeeee;
+        cursor: pointer;
+
+        &:hover {
+          color: #ff0000;
+        }
+      }
+
+      &.woosc-field-type-default, &.woosc-field-type-attribute {
+        .woosc-field-name, .woosc-field-label {
+          display: none;
+        }
+      }
+
+      &.woosc-field-type-attribute {
+        .title:after {
+          content: 'attribute';
+          font-size: 10px;
+          font-style: italic;
+          line-height: 1;
+          color: #666666;
+          margin-left: 5px;
+          background-color: #fafafa;
+          padding: 2px 4px;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
+
+/* Icon Picker */
+
+.wpclever_settings_page .icons-selector {
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #8c8f94;
+}
+
+.wpclever_settings_page .icons-selector .selector-button {
+  border-left: 1px solid #8c8f94;
+  background-color: #fafafa;
+}
+
+.wpclever_settings_page .icons-selector .selector-popup {
+  width: 330px;
+  padding: 10px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 4px 10px rgb(0 0 0 / 0.05);
+  -webkit-box-shadow: 0 4px 10px rgb(0 0 0 / 5%);
+  box-shadow: 0 4px 10px rgb(0 0 0 / 5%);
+  border: 1px solid #8c8f94;
+}
+
+.wpclever_settings_page .icons-selector .selector-popup .selector-search input {
+  border-radius: 3px;
+  background-color: #fafafa;
+  margin-bottom: 10px;
+  border: 1px solid #8c8f94;
+}
+
+.wpclever_settings_page .icons-selector .selector-popup .fip-icons-container {
+  padding: 0;
+}
+
+.wpclever_settings_page .icons-selector .selector-popup .fip-box {
+  border-radius: 3px;
+  border: 1px solid transparent;
+  background-color: #fafafa;
+}
+
+.wpclever_settings_page .icons-selector .selector-popup .fip-box:hover {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.wpclever_settings_page .icons-selector .selector-popup .fip-box.current-icon {
+  background-color: #2271b1;
+  color: #ffffff;
+}

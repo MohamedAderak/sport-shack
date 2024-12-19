@@ -1,0 +1,606 @@
+# Copyright (C) 2019 WPClever.net
+# This file is distributed under the same license as the WPC Smart Compare for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPC Smart Compare for WooCommerce 2.7.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-smart-compare-"
+"premium\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-08-13T09:01:20+00:00\n"
+"PO-Revision-Date: 2019-09-26 19:03+0300\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Domain: woosc\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Language: ru_RU\n"
+
+#. Plugin Name of the plugin
+msgid "WPC Smart Compare for WooCommerce"
+msgstr "WPC Smart Compare для WooCommerce"
+
+#. Plugin URI of the plugin
+msgid "https://wpclever.net/"
+msgstr "https://wpclever.net/"
+
+#. Description of the plugin
+msgid "Smart products compare for WooCommerce."
+msgstr "Умное сравнение товаров для WooCommerce."
+
+#. Author of the plugin
+msgid "WPClever.net"
+msgstr "WPClever.net"
+
+#. Author URI of the plugin
+msgid "https://wpclever.net"
+msgstr "https://wpclever.net"
+
+#: index.php:49
+msgid "Image"
+msgstr "Изображение"
+
+#: index.php:50
+msgid "SKU"
+msgstr "SKU"
+
+#: index.php:51
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: index.php:52
+msgid "Price"
+msgstr "Цена"
+
+#: index.php:53
+msgid "Stock"
+msgstr "Запасы"
+
+#: index.php:54
+msgid "Availability"
+msgstr "Доступность"
+
+#: index.php:55
+msgid "Add to cart"
+msgstr "В корзину"
+
+#: index.php:56
+msgid "Description"
+msgstr "Описание"
+
+#: index.php:57
+msgid "Content"
+msgstr "Содержимое"
+
+#: index.php:58
+msgid "Weight"
+msgstr "Вес"
+
+#: index.php:59
+msgid "Dimensions"
+msgstr "Размеры"
+
+#: index.php:60
+msgid "Color"
+msgstr "Цвет"
+
+#: index.php:61
+msgid "Additional information"
+msgstr "Дополнительная информация"
+
+#: index.php:62 index.php:477
+msgid "Attributes"
+msgstr "Атрибуты"
+
+#: index.php:63 index.php:502
+msgid "Custom fields"
+msgstr "Настраиваемые поля"
+
+#: index.php:193 index.php:392
+msgid "You can add a maximum of {limit} products to the comparison table."
+msgstr "Вы можете добавить максимум {limit} товаров в таблицу сравнения."
+
+#: index.php:207
+msgid "Do you want to remove all products from the compare?"
+msgstr "Вы хотите удалить все товары из сравнения?"
+
+#: index.php:237 index.php:300
+msgid "Settings"
+msgstr "Настройки"
+
+#: index.php:251
+msgid "Premium support"
+msgstr "Premium-поддержка"
+
+#: index.php:261
+msgid "Smart Compare"
+msgstr "Умное сравнение"
+
+#: index.php:283
+msgid "WPC Smart Compare"
+msgstr "WPC Smart Compare"
+
+#: index.php:286
+msgid ""
+"Thank you for using our plugin! If you are satisfied, please reward it a "
+"full five-star %s rating."
+msgstr ""
+"Спасибо за использование нашего плагина. Если он вам нравится, поставьте ему "
+"оценку в 5 звезд %s"
+
+#: index.php:289
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: index.php:291
+msgid "Changelog"
+msgstr "Список изменений"
+
+#: index.php:293
+msgid "Discussion"
+msgstr "Обсуждения"
+
+#: index.php:303
+msgid "Premium Support"
+msgstr "Premium-поддержка"
+
+#: index.php:314
+msgid "General"
+msgstr "Общее"
+
+#: index.php:318
+msgid "Open comparison bar immediately"
+msgstr "Сразу открыть панель сравнения"
+
+#: index.php:324
+msgid ""
+"Check it if you want to open the comparison bar immediately on page loaded."
+msgstr "Включите, если нужно показать панель сравнения при загрузке страницы."
+
+#: index.php:329
+msgid "Open comparison table immediately"
+msgstr "Сразу открыть таблицу сравнения"
+
+#: index.php:335
+msgid ""
+"Check it if you want to open the comparison table immediately when click to "
+"compare button. If not, it just add product to the comparison bar."
+msgstr ""
+"Включите, если нужно открывать таблицу сравнения при нажатии кнопки "
+"сравнения. Выключите, что бы добавить товар в панель сравнения."
+
+#: index.php:340
+msgid "Hide on cart & checkout page"
+msgstr "Скрыть на странице корзины и оплаты"
+
+#: index.php:345 index.php:363 index.php:538 index.php:555 index.php:572
+#: index.php:738 index.php:764 index.php:782 index.php:810 index.php:895
+msgid "Yes"
+msgstr "Да"
+
+#: index.php:349 index.php:367 index.php:542 index.php:559 index.php:576
+#: index.php:742 index.php:768 index.php:786 index.php:814 index.php:899
+msgid "No"
+msgstr "Нет"
+
+#: index.php:353
+msgid "Hide the comparison table and comparison bar on the cart & checkout page?"
+msgstr ""
+"Скрывать панель и таблицу сравнения в корзине и странице оформления заказа?"
+
+#: index.php:358
+msgid "Hide if empty"
+msgstr "Скрыть, если пусто"
+
+#: index.php:371
+msgid "Hide the comparison table and comparison bar if haven't any product."
+msgstr "Скрыть таблицу и панель сравнения если в них нет товаров."
+
+#: index.php:376
+msgid "Limit"
+msgstr "Лимит"
+
+#: index.php:381
+msgid "The maximum of products can be added to the comparison table."
+msgstr "Максимально допустимое число товаров в таблице сравнения"
+
+#: index.php:386
+msgid "Limit notice"
+msgstr "Уведомление о лимите"
+
+#: index.php:394
+msgid ""
+"The notice when reaching the limit. Use {limit} to show the number. Leave "
+"blank if you want to use the default text and can be translated."
+msgstr ""
+"Сообщение, когда достигнут предел числа товаров. Можно сипользовать {limit} "
+"для показа самого числа предела. Оставьте поле пустым, если хотите "
+"использовать текст по-умолчанию."
+
+#: index.php:399
+msgid "Comparison page"
+msgstr "Страница сравнения"
+
+#: index.php:404
+msgid "Choose a page"
+msgstr "Выберите страницу"
+
+#: index.php:408
+msgid "Add shortcode %s to display the comparison table on this page."
+msgstr "Добавьте шорткод %s для показа таблицы сравнения на этой страницу."
+
+#: index.php:413
+msgid "Custom button"
+msgstr "Настраиваемая кнопка"
+
+#: index.php:417
+msgid "button class or id"
+msgstr "CSS-класс или id кнопки"
+
+#: index.php:419
+msgid ""
+"The class or id of the button, when clicking on this button the comparison page "
+"or comparison table will be opened."
+msgstr ""
+"CSS-класс или id кнопки, для случая, когда по ней щелкают на странице "
+"сравнения или для открытия таблицы сравнения."
+
+#: index.php:420
+msgid "Example %s or %s"
+msgstr "Например %s или %s"
+
+#: index.php:425
+msgid "Custom button action"
+msgstr "Действие настраиваемой кнопки"
+
+#: index.php:430 index.php:938
+msgid "Open page"
+msgstr "Открыть страницу"
+
+#: index.php:434 index.php:942
+msgid "Open popup"
+msgstr "Открыть popup-окно"
+
+#: index.php:437
+msgid "Action when clicking on the \"custom button\"."
+msgstr "Действие по щелчку на \"настраиваемой кнопке\""
+
+#: index.php:443
+msgid "Comparison table"
+msgstr "Таблица сравнения"
+
+#: index.php:450
+msgid "Fields"
+msgstr "Поля"
+
+#: index.php:472
+msgid ""
+"Please choose the fields you want to show on the comparison table. You also can "
+"drag/drop to rearrange these fields."
+msgstr ""
+"Выберите поля, которые нужно показать в таблице сравнения. Так же можно их "
+"перетаскивать мышкой для задания нужного порядка."
+
+#: index.php:497
+msgid ""
+"Please choose the attributes you want to show on the comparison table. You also "
+"can drag/drop to rearrange these attributes."
+msgstr ""
+"Укажите, какие атрибуты показывать в таблице сравнения. Так же можно задать "
+"порядок атрибутов перетаскивая их мышкой."
+
+#: index.php:507
+msgid "Add custom field names, split by a comma."
+msgstr "Добавтьте имена дополнительных полей через запятую."
+
+#: index.php:512
+msgid "Image size"
+msgstr "Размер изображения"
+
+#: index.php:533
+msgid "Freeze first column"
+msgstr "Фиксировать первую колонку"
+
+#: index.php:545
+msgid ""
+"Freeze the first column (fields and attributes title) when scrolling "
+"horizontally."
+msgstr ""
+"Фиксировать первую колонку (поля и названия атрибутов) при горизонтальной "
+"прокрутке"
+
+#: index.php:550
+msgid "Freeze first row"
+msgstr "Фиксировать первую строку"
+
+#: index.php:562
+msgid "Freeze the first row (product name) when scrolling vertically."
+msgstr "Фиксировать первую строку (название товара) при вертикальной прокрутке"
+
+#: index.php:567
+msgid "Close button"
+msgstr "Кнопка закрытия"
+
+#: index.php:580
+msgid "Enable the close button at top-right conner of comparison table?"
+msgstr "Включить кнопку закрытия в правом верхнем углу таблицы сравнения?"
+
+#: index.php:586
+msgid "Compare button"
+msgstr "Кнопка сравнения"
+
+#: index.php:589
+msgid "Settings for the compare button in each product."
+msgstr "Настройки кнопки сравнения для каждого товара"
+
+#: index.php:593
+msgid "Type"
+msgstr "Тип"
+
+#: index.php:598
+msgid "Button"
+msgstr "Кнопка"
+
+#: index.php:602
+msgid "Link"
+msgstr "Ссылка"
+
+#: index.php:608
+msgid "Text"
+msgstr "Текст"
+
+#: index.php:612 index.php:839 index.php:1305 index.php:1406 index.php:1445
+msgid "Compare"
+msgstr "Сравнить"
+
+#: index.php:614 index.php:841
+msgid "Leave blank if you want to use the default text and can be translated."
+msgstr "Не заполняйте, если нужно использовать текст по-умолчанию."
+
+#: index.php:619
+msgid "Extra class (optional)"
+msgstr "Экстра-class (опционально)"
+
+#: index.php:624
+msgid "Add extra class for action button/link, split by one space."
+msgstr "Добавить экстра-класс для дейстия на кнопке/ссылке (через пробел)."
+
+#: index.php:629
+msgid "Show on products list"
+msgstr "Показать в списке товаров"
+
+#: index.php:634 index.php:665
+msgid "After title"
+msgstr "После заголовка"
+
+#: index.php:638
+msgid "After rating"
+msgstr "После рейтинга"
+
+#: index.php:642
+msgid "After price"
+msgstr "После цены"
+
+#: index.php:646 index.php:677
+msgid "Before add to cart"
+msgstr "Перед добавлением в корзину"
+
+#: index.php:650 index.php:681
+msgid "After add to cart"
+msgstr "После добавления в корзину"
+
+#: index.php:654 index.php:693
+msgid "None"
+msgstr "Нет"
+
+#: index.php:660
+msgid "Show on single product page"
+msgstr "Показать на отдельной странице товара"
+
+#: index.php:669
+msgid "After price & rating"
+msgstr "После цены и рейтинга"
+
+#: index.php:673
+msgid "After excerpt"
+msgstr "После вступления"
+
+#: index.php:685
+msgid "After meta"
+msgstr "После meta"
+
+#: index.php:689
+msgid "After sharing"
+msgstr "После \"поделиться\""
+
+#: index.php:699
+msgid "Manual"
+msgstr "Инструкция"
+
+#: index.php:703
+msgid "You can use the shortcode %s, eg. %s for the product with ID is 99."
+msgstr "Можно использовать шорткод %s, например, %s для товара с ID = 99."
+
+#: index.php:709
+msgid "Categories"
+msgstr "Категории"
+
+#: index.php:722
+msgid "All categories"
+msgstr "Все категории"
+
+#: index.php:728
+msgid "Only show the Compare button for products in selected categories."
+msgstr "Показать кнопку \"Сравнить\" для товаров в выбранны категориях."
+
+#: index.php:733
+msgid "Remove when clicking again"
+msgstr "Удалить при повторном щелчке"
+
+#: index.php:746
+msgid "Do you want to remove product when clicking again?"
+msgstr "Нужно удалить товар при повторном щелчке?"
+
+#: index.php:752
+msgid "Comparison bar"
+msgstr "Панель сравнения"
+
+#: index.php:755
+msgid "Settings for the comparison bar."
+msgstr "Настройки панели сравнения"
+
+#: index.php:759
+msgid "\"Settings\" button"
+msgstr "Кнопка \"Настройки\""
+
+#: index.php:772
+msgid "Show the settings popup to customize fields (show/ hide / rearrange)."
+msgstr ""
+"Показать всплывающее окно настроек для полей (показать/скрыть/переместить)."
+
+#: index.php:777
+msgid "\"Add more\" button"
+msgstr "Кнопка \"Добавить еще\""
+
+#: index.php:790
+msgid "Add the button to search product and add to compare list immediately."
+msgstr "Добавить кнопку для поиска и добавления товара в список сравнения."
+
+#: index.php:795
+msgid "\"Add more\" count"
+msgstr "Счётчик \"Добавить еще\""
+
+#: index.php:800
+msgid ""
+"The result count of search function when clicking on \"Add more\" button."
+msgstr "Счетчик результата поиска после клика на кнопке \"Добавить еще\"."
+
+#: index.php:805
+msgid "\"Remove all\" button"
+msgstr "Кнопка \"Удалить всё\""
+
+#: index.php:818
+msgid "Add the button to remove all products from compare immediately."
+msgstr "Добавить кнопку удаления всех товаров из сравнения."
+
+#: index.php:823
+msgid "Background color"
+msgstr "Цвет заднего фона"
+
+#: index.php:830
+msgid "Choose the background color for the comparison bar, default %s"
+msgstr "Выберите цвет фона для панели сравнения, по-умолчанию \"%s\""
+
+#: index.php:835
+msgid "Button text"
+msgstr "Текст кнопки"
+
+#: index.php:846
+msgid "Button color"
+msgstr "Цвет кнопки"
+
+#: index.php:855
+msgid "Choose the color for the button on comparison bar, default %s"
+msgstr "Выберите цвет кнопки на панели сравнения, по-умолчанию \"%s\""
+
+#: index.php:860
+msgid "Position"
+msgstr "Положение"
+
+#: index.php:865
+msgid "Bottom"
+msgstr "Снизу"
+
+#: index.php:869
+msgid "Top"
+msgstr "Сверху"
+
+#: index.php:875
+msgid "Align"
+msgstr "Выравнивание"
+
+#: index.php:880
+msgid "Right"
+msgstr "Вправо"
+
+#: index.php:884
+msgid "Left"
+msgstr "Влево"
+
+#: index.php:890
+msgid "Click outside to hide"
+msgstr "Щелкнуть мышью снаружи для сокрытия"
+
+#: index.php:906
+msgid "Menu"
+msgstr "Меню"
+
+#: index.php:909
+msgid "Settings for the Compare menu item."
+msgstr "Настройки элементов меню сравнения."
+
+#: index.php:913
+msgid "Menu(s)"
+msgstr "Меню"
+
+#: index.php:928
+msgid "Choose the menu(s) you want to add the \"compare menu\" at the end."
+msgstr "Выберите меню, в конец которого добавить \"меню сравнения\"."
+
+#: index.php:933
+msgid "Action"
+msgstr "Действие"
+
+#: index.php:945
+msgid "Action when clicking on the \"compare menu\"."
+msgstr "Дейстиве при клике на \"меню сравнения\"."
+
+#: index.php:952
+msgid "Update Options"
+msgstr "Сохранить настройки"
+
+#: index.php:1049
+msgid "In stock"
+msgstr "В наличии"
+
+#: index.php:1049
+msgid "Out of stock"
+msgstr "Нет в наличии"
+
+#: index.php:1213
+msgid "No products in the comparison table."
+msgstr "Нет товаров в таблице сравнения."
+
+#: index.php:1264
+msgid "No results found for \"%s\""
+msgstr "Ничего не найдено для \"%s\""
+
+#: index.php:1338
+msgid "Type any keyword to search..."
+msgstr "Наберите слово для поиска..."
+
+#: index.php:1352
+msgid ""
+"Select the fields to be shown. Others will be hidden. Drag and drop to "
+"rearrange the order."
+msgstr ""
+"Выберите поля, которые будут показаны. Прочие будут скрыты. Перктаскивайте "
+"мышкой для изменения порядка полей."
+
+#: index.php:1380
+msgid "Close"
+msgstr "Закрыть"
+
+#: index.php:1387
+msgid "Select fields"
+msgstr "Выбрать поля"
+
+#: index.php:1391
+msgid "Add product"
+msgstr "Добавить товар"
+
+#: index.php:1396
+msgid "Remove all"
+msgstr "Удалить все"

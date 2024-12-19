@@ -1,0 +1,8 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">goal_brand</custom-type>
+        <custom-type translate="1">goal_footer</custom-type>
+        <custom-type translate="1">goal_megamenu</custom-type>
+        <custom-type translate="1">goal_testimonial</custom-type>
+    </custom-types>
+</wpml-config>

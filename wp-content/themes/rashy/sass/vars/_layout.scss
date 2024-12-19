@@ -1,0 +1,164 @@
+// Container
+// -------------------------
+$container-bg                                   : transparent !default;
+$container-padding-top                          : 0px !default;
+$container-padding-bottom                       : 0px !default;
+$container-border                               : 0px !default;
+// content inner
+$content-inner-margin                           : 0px 0px $theme-margin !default;
+$content-inner-border                           : 0 !default;
+// Content
+// -------------------------
+$content-bg                                     : #fff !default;
+$content-padding                                : ($grid-gutter-width + 10) 0 !default;
+
+// Box Modules
+// -------------------------
+$block-module-radius                            : 3px !default;
+$block-module-margin-bottom                     : $theme-margin !default;
+$block-module-padding                           : 0px !default;
+$block-module-border-color                      : $theme-color!default;
+
+$block-module-heading-color						: #000000 !default;
+$block-module-heading-border                    : 0px !default;
+$block-module-heading-transform                 : uppercase !default;
+$block-module-heading-line-height               : normal !default;
+$block-module-heading-padding                   : 20px 0 !default;
+$block-module-heading-margin                    : 0 !default;
+$block-module-heading-font-size                 : 24px !default;
+$block-module-heading-font-weight               : 600 !default;
+$block-module-heading-show-separator            : none !default;
+$block-module-heading-image-position            : 0 0 !default;
+
+$block-module-content-radius                    : 0 !default;
+$block-module-highlighted-bg                    : $theme-color !default;
+$block-module-highlighted-border                : solid 2px $theme-color !default;
+
+$block-module-footer-heading-color              : $white !default;
+
+$block-product-padding                          : 0 !default;
+$block-heading-letter-spacing                   : 0 !default;
+
+// Sidebar
+// -------------------------
+$block-sidebar-module-border                    : none !default;
+$block-sidebar-box-padding                      : 0 !default; 
+$block-sidebar-box-margin                       : 0 0 30px !default;
+
+$block-sidebar-list-padding-vertical            : 13px 0px 13px 13px !default;
+$block-sidebar-list-border-color                : $border-color !default;
+
+$block-sidebar-hightlight-margin 				: 0 0 20px !default;
+$block-sidebar-heading-margin            		: 0 !default;
+$block-sidebar-heading-hightlight-bg            : $nocolor !default;
+$block-sidebar-heading-hightlight-padding       : 0 !default;
+$block-sidebar-heading-hightlight-margin    	: 0 !default;
+$block-sidebar-heading-hightlight-color         : $black !default;
+$block-sidebar-heading-hightlight-margin-bottom : 0px !default;
+$block-sidebar-heading-hightlight-font-size     : 14px !default;
+$block-sidebar-heading-hightlight-font-weight   : 900 !default;
+$block-sidebar-hightlight-content-bg			: $nocolor !default;
+$block-sidebar-hightlight-content-color			: #666666 !default; 
+$block-sidebar-hightlight-content-padding		: 0 !default;
+$block-sidebar-hightlight-border   				: 1px solid rgba(0, 0, 0, 0.1) !default;
+$block-sidebar-hightlight-font-size 			: 12px !default;	
+$block-sidebar-hightlight-transform 			: uppercase !default;
+$block-sidebar-hightlight-font-weight			: 300 !default;						
+$block-sidebar-link-hightlight-color            : $white !default;
+$block-sidebar-link-hightlight-hover-color      : $theme-color !default;
+$block-sidebar-list-hightlight-border-color     : #393939 !default;
+$block-sidebar-list-hightlight-font-size        : 10px !default;
+$block-sidebar-list-hightlight-padding          : 17px 15px !default;
+$block-sidebar-list-hightlight-image            : url('#{$image-theme-path}dot.jpg') 0 22px no-repeat !default;
+$block-sidebar-list-image                       : url('#{$image-theme-path}dot.jpg') 0 22px no-repeat !default;
+
+$block-sidebar-heading-padding                  : 0 0 30px !default;
+$block-sidebar-heading-margin                   : 0 !default;
+$block-sidebar-heading-font-size                : 14px !default;
+$block-sidebar-heading-color                    : $black !default; 
+$block-sidebar-heading-line-height              : 20px !default;
+$block-sidebar-heading-font-weight				: 900 !default;
+
+$block-sidebar-widget-border                    : 1px solid lighten($border-color, 3%) !default;
+
+/********* LAYOUT **************/
+
+//Header
+// -------------------------
+$header-height                                  : 80px !default;
+$header-bg                                      : $nocolor !default;
+$header-font-size                               : $font-size-base !default;
+$header-border                                  : 0 !default;
+$header-color                                   : $black !default;
+$header-link-color                              : $black !default;
+$header-link-hover-color                        : $theme-color !default;
+$header-icon-color                              : $black !default;
+$header-icon-font-size                          : 13px !default;
+$header-list-font-size                          : 12px !default;
+$header-content-align                           : center !default;
+$header-margin                                  : 0 !default;
+$header-padding                                 : 30px 50px !default;
+// skin2
+$header-skin2-content-padding                   : 35px 0 !default;
+//header v1
+$header-v1-top-bg                               : #363636 !default;
+$header-v1-bg-bottom                            : #fff !default;
+$header-v1-menu-color                           : #363636 !default;
+$header-v1-menu-color-hover                     : $theme-color !default;
+$border-menuv1-color                            : $border-color !default;
+// logo
+$logo-margin                                    : 0px !default;
+
+// Topbar
+// -------------------------
+$topbar-bg                                      : #f2f3f5 !default;
+$topbar-link-color                              : #707070 !default;
+$topbar-link-hover-color                        : $theme-color !default;
+$topbar-color                                   : #707070 !default;
+$topbar-padding                                 : 12px 0px !default;
+$topbar-font-size                               : 12px !default;
+// Slideshow
+// -------------------------
+$slideshow-btn-padding                          : 0px 25px !important;
+$slideshow-btn-font-size                        : 11px !important;
+$slideshow-btn-height                           : 40px !important;
+$slideshow-arrow                                : $white !default;
+$slideshow-text-border                          : $white !default;
+
+// Footer
+// ------------------------- 
+$footer-bg                                      : #fff !default;
+$footer-color                                   : #fff !default;
+$footer-transform                               : none !default;
+$footer-font-size                               : $font-size-base !default; 
+$footer-border                                  : none !default;
+$footer-padding                          		: 0 !default;
+$footer-text-hightlight                         : $white !default;
+$footer-link-font-size							: $font-size-base !default;
+$footer-column-margin                           : 0 0 30px 0 !default;
+$footer-link-color                              : #aaa !default;
+$footer-link-hover-color                        : $link-hover-color !default;
+$footer-heding-title-color                      : #fff !default;
+
+$footer-bg-light                                : #f1f3f4 !default;
+$footer-color-light                             : #1a1a1a !default;
+
+$footer-heading-color-boxed                     : #161718 !default;
+$footer-bg-boxed                                : #f1f3f4 !default;
+$footer-color-boxed                             : #1a1a1a !default;
+
+// Copyright
+// -------------------------
+$copyright-bg                                   : #ffffff !default;
+$copyright-color                                : #888888 !default;
+$copyright-link-color                           : #888888 !default;
+$copyright-link-hover-color                     : $link-hover-color !default;
+$copyright-padding                              : 30px 0 !default;
+$copyright-font-size							: 14px !default;
+$copyright-font-weight							: 400 !default;
+
+$copyright-color-light							: #191b19 !default;
+$copyright-color-boxed							: #191b19 !default;
+
+$del-font-size									: 12px !default;
+$del-color										: #666666 !default;

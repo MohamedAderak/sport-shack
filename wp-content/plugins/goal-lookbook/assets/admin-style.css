@@ -1,0 +1,16 @@
+#large_scene_image {
+	overflow: hidden;
+	position: relative;
+	display: inline-block;
+}
+
+#ajax_choose_product {
+	z-index: 100;
+}
+
+#large_scene_image .screenshot img {
+	max-width: 100%;
+}
+#ajax_choose_product {
+	display: none;
+}

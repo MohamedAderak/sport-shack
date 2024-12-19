@@ -1,0 +1,617 @@
+# Copyright (C) 2019 WPClever.net
+# This file is distributed under the same license as the WPC Smart Compare for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPC Smart Compare for WooCommerce 2.7.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-smart-"
+"compare\n"
+"Last-Translator: webmaster\n"
+"Language-Team: Persian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-08-13T09:18:37+00:00\n"
+"PO-Revision-Date: 2020-10-25 18:37+0330\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Domain: woosc\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.3.0; wp-5.2.3\n"
+
+#. Plugin Name of the plugin
+msgid "WPC Smart Compare for WooCommerce"
+msgstr "مقایسه هوشمند برای افزونه ووکامرس"
+
+#. Plugin URI of the plugin
+msgid "https://wpclever.net/"
+msgstr "https://wpclever.net/"
+
+#. Description of the plugin
+msgid "Smart products compare for WooCommerce."
+msgstr "افزونه مقایسه حرفه ای محصولات ووکامرس."
+
+#. Author of the plugin
+msgid "WPClever.net"
+msgstr "WPClever.net"
+
+#. Author URI of the plugin
+msgid "https://wpclever.net"
+msgstr "https://wpclever.net"
+
+#: index.php:47
+msgid "Image"
+msgstr "عکس"
+
+#: index.php:48
+msgid "SKU"
+msgstr "شناسه محصول"
+
+#: index.php:49
+msgid "Rating"
+msgstr "امتیاز"
+
+#: index.php:50
+msgid "Price"
+msgstr "قیمت"
+
+#: index.php:51
+msgid "Stock"
+msgstr "در انبار"
+
+#: index.php:52
+msgid "Availability"
+msgstr "موجودی"
+
+#: index.php:53
+msgid "Add to cart"
+msgstr "افزودن به سبد خرید"
+
+#: index.php:54
+msgid "Description"
+msgstr "توضیحات"
+
+#: index.php:55
+msgid "Content"
+msgstr "محتوا"
+
+#: index.php:56
+msgid "Weight"
+msgstr "عرض"
+
+#: index.php:57
+msgid "Dimensions"
+msgstr "اندازه"
+
+#: index.php:58
+msgid "Color"
+msgstr "رنگ"
+
+#: index.php:59
+msgid "Additional information"
+msgstr "تنظیمات بیشتر"
+
+#: index.php:60 index.php:474
+msgid "Attributes"
+msgstr "ویژگی ها"
+
+#: index.php:61 index.php:504
+msgid "Custom fields"
+msgstr "زمینه های دلخواه"
+
+#: index.php:188 index.php:389
+msgid "You can add a maximum of {limit} products to the comparison table."
+msgstr "می توانید حداکثر محصولات {limit} را به جدول مقایسه اضافه کنید."
+
+#: index.php:202
+msgid "Do you want to remove all products from the compare?"
+msgstr "آیا می خواهید تمام محصولات را از مقایسه حذف کنید؟"
+
+#: index.php:232 index.php:296
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: index.php:233 index.php:300
+msgid "Premium Version"
+msgstr "نسخه حرفه ای"
+
+#: index.php:247
+msgid "Premium support"
+msgstr "پشتبانی حرفه ای"
+
+#: index.php:257
+msgid "Smart Compare"
+msgstr "مقایسه هوشمند"
+
+#: index.php:279
+msgid "WPC Smart Compare"
+msgstr "مقایسه محصولات حرفه ای"
+
+#: index.php:282
+msgid ""
+"Thank you for using our plugin! If you are satisfied, please reward it a "
+"full five-star %s rating."
+msgstr ""
+"با تشکر از شما برای استفاده از افزونه ما! اگر راضی هستید ، لطفاً به آن امتیاز "
+"کامل پنج ستاره %s را اهدا کنید."
+
+#: index.php:285
+msgid "Reviews"
+msgstr "نظرات"
+
+#: index.php:287
+msgid "Changelog"
+msgstr "تغییرات"
+
+#: index.php:289
+msgid "Discussion"
+msgstr "بحث"
+
+#: index.php:311
+msgid "General"
+msgstr "کلی"
+
+#: index.php:315
+msgid "Open comparison bar immediately"
+msgstr "بلافاصله نوار مقایسه را باز کنید"
+
+#: index.php:321
+msgid ""
+"Check it if you want to open the comparison bar immediately on page loaded."
+msgstr ""
+"اگر می خواهید نوار مقایسه را فوراً در صفحه لود شده باز کنید ، آن را بررسی "
+"کنید."
+
+#: index.php:326
+msgid "Open comparison table immediately"
+msgstr "جدول مقایسه را فوراً باز کنید"
+
+#: index.php:332
+msgid ""
+"Check it if you want to open the comparison table immediately when click to "
+"compare button. If not, it just add product to the comparison bar."
+msgstr ""
+"اگر می خواهید برای مقایسه دکمه مقایسه ، فوراً جدول مقایسه را باز کنید ، آن را "
+"بررسی کنید. اگر اینطور نیست ، فقط محصول را به نوار مقایسه اضافه می کنیم."
+
+#: index.php:337
+msgid "Hide on cart & checkout page"
+msgstr "در سبد خرید و صفحه پرداخت مخفی شوید"
+
+#: index.php:342 index.php:360 index.php:545 index.php:562 index.php:579
+#: index.php:745 index.php:771 index.php:789 index.php:817 index.php:902
+msgid "Yes"
+msgstr "بله"
+
+#: index.php:346 index.php:364 index.php:549 index.php:566 index.php:583
+#: index.php:749 index.php:775 index.php:793 index.php:821 index.php:906
+msgid "No"
+msgstr "خیر"
+
+#: index.php:350
+msgid "Hide the comparison table and comparison bar on the cart & checkout page?"
+msgstr ""
+"جدول مقایسه را مخفی کنید و نوار مقایسه را در صفحه سبد خرید و پرداخت آن "
+"مقایسه کنید؟"
+
+#: index.php:355
+msgid "Hide if empty"
+msgstr "اگر خالی باشد مخفی شوید"
+
+#: index.php:368
+msgid "Hide the comparison table and comparison bar if haven't any product."
+msgstr "اگر هیچ محصولی ندارید ، جدول مقایسه را مخفی کنید و نوار مقایسه کنید."
+
+#: index.php:373
+msgid "Limit"
+msgstr "محدودیت"
+
+#: index.php:378
+msgid "The maximum of products can be added to the comparison table."
+msgstr "حداکثر محصولات را می توان به جدول مقایسه اضافه کرد."
+
+#: index.php:383
+msgid "Limit notice"
+msgstr "توجه را محدود کنید"
+
+#: index.php:391
+msgid ""
+"The notice when reaching the limit. Use {limit} to show the number. Leave "
+"blank if you want to use the default text and can be translated."
+msgstr ""
+"توجه هنگام رسیدن به محدودیت. برای نشان دادن شماره {limit}  استفاده کنید. اگر "
+"می خواهید از متن پیش فرض استفاده کنید ، خالی بگذارید و قابل ترجمه است."
+
+#: index.php:396
+msgid "Comparison page"
+msgstr "صفحه مقایسه"
+
+#: index.php:401
+msgid "Choose a page"
+msgstr "یک صفحه را انتخاب کنید"
+
+#: index.php:405
+msgid "Add shortcode %s to display the comparison table on this page."
+msgstr "برای نمایش جدول مقایسه در این صفحه ، کد کوتاه %s را اضافه کنید."
+
+#: index.php:410
+msgid "Custom button"
+msgstr "دکمه سفارشی"
+
+#: index.php:414
+msgid "button class or id"
+msgstr "کلاس دکمه یا شناسه"
+
+#: index.php:416
+msgid ""
+"The class or id of the button, when clicking on this button the comparison page "
+"or comparison table will be opened."
+msgstr ""
+"کلاس یا شناسه این دکمه ، هنگام کلیک کردن روی این دکمه صفحه مقایسه یا جدول "
+"مقایسه باز خواهد شد."
+
+#: index.php:417
+msgid "Example %s or %s"
+msgstr "مثال %s یا %s"
+
+#: index.php:422
+msgid "Custom button action"
+msgstr "عملکرد دکمه سفارشی"
+
+#: index.php:427 index.php:945
+msgid "Open page"
+msgstr "باز کردن صفحه"
+
+#: index.php:431 index.php:949
+msgid "Open popup"
+msgstr "باز کردن پاپ آپ"
+
+#: index.php:434
+msgid "Action when clicking on the \"custom button\"."
+msgstr "هنگام کلیک بر روی \"دکمه دلخواه\" اقدام کنید."
+
+#: index.php:440
+msgid "Comparison table"
+msgstr "جدول مقایسه کنید"
+
+#: index.php:447
+msgid "Fields"
+msgstr "زمینه ها"
+
+#: index.php:469
+msgid ""
+"Please choose the fields you want to show on the comparison table. You also can "
+"drag/drop to rearrange these fields."
+msgstr ""
+"لطفاً زمینه هایی را که می خواهید در جدول مقایسه نشان دهید ، انتخاب کنید. "
+"همچنین می توانید برای تنظیم مجدد این قسمت ها ، بکشید و رها کنید."
+
+#: index.php:494
+msgid ""
+"Please choose the attributes you want to show on the comparison table. You also "
+"can drag/drop to rearrange these attributes."
+msgstr ""
+"لطفاً صفاتی را که می خواهید در جدول مقایسه نشان دهید ، انتخاب کنید. همچنین می "
+"توانید برای تنظیم مجدد این ویژگی ها ، بکشید و رها کنید."
+
+#: index.php:509
+msgid "Add custom field names, split by a comma."
+msgstr "نام های زمینه دلخواه را اضافه کنید ، با یک کاما تقسیم کنید."
+
+#: index.php:519
+msgid "Image size"
+msgstr "اندازه تصویر"
+
+#: index.php:540
+msgid "Freeze first column"
+msgstr "ستون اول را ثابت کنید"
+
+#: index.php:552
+msgid ""
+"Freeze the first column (fields and attributes title) when scrolling "
+"horizontally."
+msgstr ""
+"هنگام پیمایش به صورت افقی ، اولین ستون (عنوان قسمت ها و عنوان ویژگی ها) را "
+"فریز کنید."
+
+#: index.php:557
+msgid "Freeze first row"
+msgstr "ردیف اول را ثابت کنید"
+
+#: index.php:569
+msgid "Freeze the first row (product name) when scrolling vertically."
+msgstr "ردیف اول (نام محصول) را هنگام حرکت به صورت عمودی ثابت کنید."
+
+#: index.php:574
+msgid "Close button"
+msgstr "دکمه بستن"
+
+#: index.php:587
+msgid "Enable the close button at top-right conner of comparison table?"
+msgstr "دکمه بستن را در گوشه بالا سمت راست جدول مقایسه فعال کنید؟"
+
+#: index.php:593
+msgid "Compare button"
+msgstr "دکمه مقایسه"
+
+#: index.php:596
+msgid "Settings for the compare button in each product."
+msgstr "تنظیمات دکمه مقایسه در هر محصول."
+
+#: index.php:600
+msgid "Type"
+msgstr "نوع"
+
+#: index.php:605
+msgid "Button"
+msgstr "دکمه"
+
+#: index.php:609
+msgid "Link"
+msgstr "لینک"
+
+#: index.php:615
+msgid "Text"
+msgstr "متن"
+
+#: index.php:619 index.php:846 index.php:1248 index.php:1349 index.php:1388
+msgid "Compare"
+msgstr "مقایسه"
+
+#: index.php:621 index.php:848
+msgid "Leave blank if you want to use the default text and can be translated."
+msgstr ""
+"اگر می خواهید از متن پیش فرض استفاده کنید ، خالی بگذارید و قابل ترجمه است."
+
+#: index.php:626
+msgid "Extra class (optional)"
+msgstr "کلاس اضافی (اختیاری)"
+
+#: index.php:631
+msgid "Add extra class for action button/link, split by one space."
+msgstr ""
+"کلاس اضافی را برای دکمه / پیوند اقدام اضافه کنید ، که با یک فاصله تقسیم می "
+"شود."
+
+#: index.php:636
+msgid "Show on products list"
+msgstr "نمایش در لیست محصولات"
+
+#: index.php:641 index.php:672
+msgid "After title"
+msgstr "بعد از عنوان"
+
+#: index.php:645
+msgid "After rating"
+msgstr "بعد از رتبه بندی"
+
+#: index.php:649
+msgid "After price"
+msgstr "بعد از قیمت"
+
+#: index.php:653 index.php:684
+msgid "Before add to cart"
+msgstr "قبل از افزودن به سبد خرید"
+
+#: index.php:657 index.php:688
+msgid "After add to cart"
+msgstr "بعد از افزودن به سبد خرید"
+
+#: index.php:661 index.php:700
+msgid "None"
+msgstr "هیچکدام"
+
+#: index.php:667
+msgid "Show on single product page"
+msgstr "نمایش در صفحه محصول واحد"
+
+#: index.php:676
+msgid "After price & rating"
+msgstr "پس از قیمت و امتیاز"
+
+#: index.php:680
+msgid "After excerpt"
+msgstr "بعد از انتخاب"
+
+#: index.php:692
+msgid "After meta"
+msgstr "بعد از متا"
+
+#: index.php:696
+msgid "After sharing"
+msgstr "بعد از اشتراک گذاری"
+
+#: index.php:706
+msgid "Manual"
+msgstr "کتابچه راهنمای"
+
+#: index.php:710
+msgid "You can use the shortcode %s, eg. %s for the product with ID is 99."
+msgstr ""
+"به عنوان مثال می توانید از کد کوتاه %s استفاده کنید. %s برای محصول دارای "
+"شناسه 99 است."
+
+#: index.php:716
+msgid "Categories"
+msgstr "دسته بندی"
+
+#: index.php:729
+msgid "All categories"
+msgstr "همه دسته ها"
+
+#: index.php:735
+msgid "Only show the Compare button for products in selected categories."
+msgstr "فقط دکمه مقایسه محصولات را در دسته های انتخاب شده نشان دهید."
+
+#: index.php:740
+msgid "Remove when clicking again"
+msgstr "هنگام کلیک دوباره حذف کنید"
+
+#: index.php:753
+msgid "Do you want to remove product when clicking again?"
+msgstr "آیا می خواهید هنگام کلیک دوباره محصول را حذف کنید؟"
+
+#: index.php:759
+msgid "Comparison bar"
+msgstr "مقایسه نوار"
+
+#: index.php:762
+msgid "Settings for the comparison bar."
+msgstr "تنظیمات نوار مقایسه."
+
+#: index.php:766
+msgid "\"Settings\" button"
+msgstr "دکمه \"تنظیمات\""
+
+#: index.php:779
+msgid "Show the settings popup to customize fields (show/ hide / rearrange)."
+msgstr ""
+"پنجره تنظیمات را برای شخصی سازی زمینه ها نشان دهید (نمایش / پنهان کردن / "
+"تنظیم مجدد)."
+
+#: index.php:784
+msgid "\"Add more\" button"
+msgstr "دکمه \"اضافه کردن بیشتر\""
+
+#: index.php:797
+msgid "Add the button to search product and add to compare list immediately."
+msgstr ""
+"دکمه ای را برای جستجوی محصول اضافه کرده و لیست مقایسه را فوراً اضافه کنید."
+
+#: index.php:802
+msgid "\"Add more\" count"
+msgstr "تعداد \"اضافه کردن بیشتر\""
+
+#: index.php:807
+msgid ""
+"The result count of search function when clicking on \"Add more\" button."
+msgstr ""
+"تعداد نتیجه عملکرد جستجو هنگام کلیک بر روی دکمه \"افزودن بیشتر\" کلیک کنید."
+
+#: index.php:812
+msgid "\"Remove all\" button"
+msgstr "دکمه \"حذف همه\""
+
+#: index.php:825
+msgid "Add the button to remove all products from compare immediately."
+msgstr "دکمه ای را اضافه کنید تا بلافاصله تمام محصولات از مقایسه خارج شود."
+
+#: index.php:830
+msgid "Background color"
+msgstr "رنگ پس زمینه"
+
+#: index.php:837
+msgid "Choose the background color for the comparison bar, default %s"
+msgstr "رنگ پس زمینه را برای نوار مقایسه ، پیش فرض %s انتخاب کنید"
+
+#: index.php:842
+msgid "Button text"
+msgstr "متن دکمه"
+
+#: index.php:853
+msgid "Button color"
+msgstr "رنگ دکمه"
+
+#: index.php:862
+msgid "Choose the color for the button on comparison bar, default %s"
+msgstr "رنگ را برای دکمه نوار مقایسه ، پیش فرض %sانتخاب کنید"
+
+#: index.php:867
+msgid "Position"
+msgstr "موقعیت"
+
+#: index.php:872
+msgid "Bottom"
+msgstr "پایین"
+
+#: index.php:876
+msgid "Top"
+msgstr "بالا"
+
+#: index.php:882
+msgid "Align"
+msgstr "جهت"
+
+#: index.php:887
+msgid "Right"
+msgstr "راست"
+
+#: index.php:891
+msgid "Left"
+msgstr "چپ"
+
+#: index.php:897
+msgid "Click outside to hide"
+msgstr "برای مخفی کردن بر روی بیرون کلیک کنید"
+
+#: index.php:913
+msgid "Menu"
+msgstr "منو"
+
+#: index.php:916
+msgid "Settings for the Compare menu item."
+msgstr "تنظیمات مورد مورد مقایسه کنید."
+
+#: index.php:920
+msgid "Menu(s)"
+msgstr "منو ها"
+
+#: index.php:935
+msgid "Choose the menu(s) you want to add the \"compare menu\" at the end."
+msgstr ""
+"منوی (های) مورد نظر خود را برای افزودن \"فهرست مقایسه\" در انتها انتخاب کنید."
+
+#: index.php:940
+msgid "Action"
+msgstr "عملکرد"
+
+#: index.php:952
+msgid "Action when clicking on the \"compare menu\"."
+msgstr "هنگام کلیک بر روی \"مقایسه فهرست\" ، اقدام کنید."
+
+#: index.php:959
+msgid "Update Options"
+msgstr "بروزرسانی تنظیمات"
+
+#: index.php:1071
+msgid "In stock"
+msgstr "در انبار"
+
+#: index.php:1071
+msgid "Out of stock"
+msgstr "محصولات بدون موجودی"
+
+#: index.php:1156
+msgid "No products in the comparison table."
+msgstr "هیچ محصولی در جدول مقایسه نیست."
+
+#: index.php:1207
+msgid "No results found for \"%s\""
+msgstr "هیچ نتیجه ای برای \"%s\" یافت نشد"
+
+#: index.php:1281
+msgid "Type any keyword to search..."
+msgstr "کلمات کلیدی را برای جستجو تایپ کنید ..."
+
+#: index.php:1295
+msgid ""
+"Select the fields to be shown. Others will be hidden. Drag and drop to "
+"rearrange the order."
+msgstr ""
+"فیلدهای نمایش داده شده را انتخاب کنید. دیگران مخفی خواهند شد. برای تنظیم "
+"مجدد سفارش ، بکشید و رها کنید."
+
+#: index.php:1323
+msgid "Close"
+msgstr "بستن"
+
+#: index.php:1330
+msgid "Select fields"
+msgstr "فیلدها را انتخاب کنید"
+
+#: index.php:1334
+msgid "Add product"
+msgstr "اضافه کردن محصول"
+
+#: index.php:1339
+msgid "Remove all"
+msgstr "همه را حذف کنید"
